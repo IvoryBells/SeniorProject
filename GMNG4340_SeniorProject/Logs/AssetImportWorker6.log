@@ -9,11 +9,13 @@ C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker6
 -projectPath
 C:/Users/rona/Documents/GitHub/SeniorProject/GMNG4340_SeniorProject
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker6.log
 -srvPort
 52598
 Successfully changed project path to: C:/Users/rona/Documents/GitHub/SeniorProject/GMNG4340_SeniorProject
+C:/Users/rona/Documents/GitHub/SeniorProject/GMNG4340_SeniorProject
+Using Asset Import Pipeline V2.
