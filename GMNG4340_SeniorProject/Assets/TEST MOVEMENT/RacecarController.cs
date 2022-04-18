@@ -20,7 +20,7 @@ public class RacecarController : MonoBehaviour
     public float rotateTurnSpeed;
 
     public float timer = 0.0f;
-    public float boostTimer = 5f;
+    public float boostTimer = 5000f;
     public bool boosted;
 
     public float _steer;
@@ -68,22 +68,22 @@ public class RacecarController : MonoBehaviour
 
 
         //Boost and the boost cooldown
-        if (boosted == true)
+        /*if (boosted == true)
         {
             boostTimer -= Time.deltaTime;
 
             if (boostTimer < 0)
             {
-                boostTimer = 5f;
+                boostTimer = 5000f;
                 boosted = false;
             }
         }
 
-        if (_boost == true && boostTimer == 5f)
+        if (_boost == true && boostTimer == 5000f)
         {
             rb.AddForce(transform.forward * 2000);
             boosted = true;
-        }
+        }*/
 
 
 
