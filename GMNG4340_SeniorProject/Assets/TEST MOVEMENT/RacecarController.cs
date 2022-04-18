@@ -61,7 +61,7 @@ public class RacecarController : MonoBehaviour
 
         if (_drift == false)
         {
-            moveSpeed = 20f;
+            moveSpeed = 15f;
             timer = 0.0f;
         }
 
