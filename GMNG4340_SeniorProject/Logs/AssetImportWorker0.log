@@ -15,11 +15,11 @@ C:/Users/Annab/Documents/Projects/SeniorProject/GMNG4340_SeniorProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1049
+1046
 Successfully changed project path to: C:/Users/Annab/Documents/Projects/SeniorProject/GMNG4340_SeniorProject
 C:/Users/Annab/Documents/Projects/SeniorProject/GMNG4340_SeniorProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001204 seconds.
+Registered in 0.001059 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.385 seconds
+- Completed reload, in  0.380 seconds
 Domain Reload Profiling:
-	ReloadAssembly (385ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (380ms)
+		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (295ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (293ms)
 			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (116ms)
+			SetupLoadedEditorAssemblies (114ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (29ms)
 				BeforeProcessingInitializeOnLoad (7ms)
 				ProcessInitializeOnLoadAttributes (56ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002880 seconds.
+Registered in 0.002744 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  0.736 seconds
 Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (598ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (248ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (245ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (162ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (159ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 109.1 MB.
-System memory in use after: 109.2 MB.
+System memory in use before: 109.3 MB.
+System memory in use after: 109.3 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2675.
-Total: 2.517200 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.044800 ms MarkObjects: 2.235400 ms  DeleteObjects: 0.092900 ms)
+Total: 2.449700 ms (FindLiveObjects: 0.135100 ms CreateObjectMapping: 0.052100 ms MarkObjects: 2.173900 ms  DeleteObjects: 0.087600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,353 +131,185 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Chroma Skyscraper Q.fbx
-  artifactKey: Guid(2b008049c26174841befe2f189acd029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chroma Skyscraper Q.fbx using Guid(2b008049c26174841befe2f189acd029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeec25c88de66fb1296fe28d90182205') in 0.143282 seconds 
-  Import took 0.147056 seconds .
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Emission 1.png
+  artifactKey: Guid(3cf0662235ed83e478582edb1fb8a830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Emission 1.png using Guid(3cf0662235ed83e478582edb1fb8a830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43b16e4310b24c814df47ce07e06d44') in 0.051197 seconds 
+  Import took 0.053955 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.885473 seconds.
-  path: Assets/Models/KageRacer (2).fbx
-  artifactKey: Guid(303604c77cb58d34d88c02e59badfdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/KageRacer (2).fbx using Guid(303604c77cb58d34d88c02e59badfdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9accfbf4bc5440e5b1f90714bfb3cbd') in 0.133406 seconds 
-  Import took 0.136739 seconds .
+  Time since last request: 0.000129 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_AO 1.png
+  artifactKey: Guid(eeb3a2bb81ca35b44b1fe4d042eb6ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_AO 1.png using Guid(eeb3a2bb81ca35b44b1fe4d042eb6ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da54efcccb978b93478a61b542ce190') in 0.012011 seconds 
+  Import took 0.014472 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.072209 seconds.
-  path: Assets/Materials/Kage_Racer_Textures
-  artifactKey: Guid(6b30e35b63de9a94abc35b28dcee0e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures using Guid(6b30e35b63de9a94abc35b28dcee0e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3fe3aa3924b8889dfc806fa654b8bd') in 0.004158 seconds 
-  Import took 0.007643 seconds .
+  Time since last request: 0.000119 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_AlbedoTransparency 1.png
+  artifactKey: Guid(6d98ad2c2c4e53e41897f12cce0d2601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_AlbedoTransparency 1.png using Guid(6d98ad2c2c4e53e41897f12cce0d2601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac876ba515033ff0d81c0bb23d1833e') in 0.008648 seconds 
+  Import took 0.011815 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.654549 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_AlbedoTransparency.png
-  artifactKey: Guid(87037931b78a7b746835a824a184dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_AlbedoTransparency.png using Guid(87037931b78a7b746835a824a184dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0e6fb5e826b7685068ad122ed5243e') in 0.017368 seconds 
-  Import took 0.020833 seconds .
+  Time since last request: 0.000127 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_MetallicSmoothness 1.png
+  artifactKey: Guid(0f740bbd30d5f0f448e24c020e0ec591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_MetallicSmoothness 1.png using Guid(0f740bbd30d5f0f448e24c020e0ec591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e5b2a5fcccd4335c6e8c7f7a58d809') in 0.014321 seconds 
+  Import took 0.017360 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_Height.png
-  artifactKey: Guid(fb42325b686b91841956bfb141a215cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_Height.png using Guid(fb42325b686b91841956bfb141a215cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594b95b72a9bb61609a8d5ba5752fc41') in 0.007881 seconds 
-  Import took 0.010848 seconds .
+  Time since last request: 0.000110 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Normal 1.png
+  artifactKey: Guid(0dc0903eccfa19b4cb7cf73a9a880980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Normal 1.png using Guid(0dc0903eccfa19b4cb7cf73a9a880980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c266a7a245ff024a95437ce45b4d41') in 0.008184 seconds 
+  Import took 0.010918 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_Emission.png
-  artifactKey: Guid(cc89a7243eca51344831904ef0f1d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_Emission.png using Guid(cc89a7243eca51344831904ef0f1d37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56315a0e0a5f194a5daaa08c915b869') in 0.008706 seconds 
-  Import took 0.011827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_Normal.png
-  artifactKey: Guid(a3c7d4673ecaebd459c26988ce9b2e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_Normal.png using Guid(a3c7d4673ecaebd459c26988ce9b2e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65812486010440b11d64fca4c342e679') in 0.007679 seconds 
-  Import took 0.010481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_Normal.png
-  artifactKey: Guid(6206390b4b4fd924e8e2ba37450f0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_Normal.png using Guid(6206390b4b4fd924e8e2ba37450f0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e88357c3c73972e7aee3c3974e0d6ed') in 0.007576 seconds 
-  Import took 0.010218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_MetallicSmoothness.png
-  artifactKey: Guid(d176432a0a1ac66469d435450a6d90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_MetallicSmoothness.png using Guid(d176432a0a1ac66469d435450a6d90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdeabe5494cd2078836bafb27d2009e') in 0.013975 seconds 
-  Import took 0.016834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_MetallicSmoothness.png
-  artifactKey: Guid(e6c86cdf1038a534bad10b58ff6c5e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_MetallicSmoothness.png using Guid(e6c86cdf1038a534bad10b58ff6c5e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513e5636af4da269c65f67ae39f0287f') in 0.010091 seconds 
-  Import took 0.013072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_AlbedoTransparency.png
-  artifactKey: Guid(b1a7c4b015370644194c1c0cc1132dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_AlbedoTransparency.png using Guid(b1a7c4b015370644194c1c0cc1132dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e703415de78a4387ec7067812780657') in 0.008605 seconds 
-  Import took 0.011361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_Emission.png
-  artifactKey: Guid(e3b769c65738b1a45931a1fdffc68ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_Emission.png using Guid(e3b769c65738b1a45931a1fdffc68ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f5717954281c5b2d1c6cffdd28ef2a') in 0.008622 seconds 
-  Import took 0.011218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_Height.png
-  artifactKey: Guid(f2937ca5e2d998b428f22f95b9ef20a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_Height.png using Guid(f2937ca5e2d998b428f22f95b9ef20a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257b2a540edf66bd202027e8e99c4aa6') in 0.007764 seconds 
-  Import took 0.010216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.750114 seconds.
-  path: Assets/Materials/Kage_Jacket.mat
-  artifactKey: Guid(9f8936a892f55d24399a3b516fc9c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Jacket.mat using Guid(9f8936a892f55d24399a3b516fc9c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2da26b01c42dffae9d5b944a4a69e8') in 0.038844 seconds 
-  Import took 0.041940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.207233 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Textures/ConcreteBarePoleTGA.tga
-  artifactKey: Guid(91f8d73a3f33ceb478d1d917161d8315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Textures/ConcreteBarePoleTGA.tga using Guid(91f8d73a3f33ceb478d1d917161d8315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c33fb8c46ef731b508041a8d2b6c49') in 0.019846 seconds 
-  Import took 0.023576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Albedo/ground_Grass1.tga
-  artifactKey: Guid(8db482acd965b6d41bc960fab5b61e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Albedo/ground_Grass1.tga using Guid(8db482acd965b6d41bc960fab5b61e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7544994f5bdd399369bb496f48bc57') in 0.014775 seconds 
-  Import took 0.018592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Albedo/ice.tga
-  artifactKey: Guid(e0f4013c15106434a9b9cd585709ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Albedo/ice.tga using Guid(e0f4013c15106434a9b9cd585709ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0c52a68fbb0bcb930ee19363931fd7') in 0.014175 seconds 
-  Import took 0.017326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Normal/ground_Grass1.tga
-  artifactKey: Guid(f1602f1b31e8e8b4fb10922f3e8fa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Normal/ground_Grass1.tga using Guid(f1602f1b31e8e8b4fb10922f3e8fa207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a877ad3a512d1783312bd8368c2f72ea') in 0.016917 seconds 
-  Import took 0.019862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Normal/Ground_FrozenTundra.tga
-  artifactKey: Guid(5ae2908d6f84a9941a36ca97af555423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Normal/Ground_FrozenTundra.tga using Guid(5ae2908d6f84a9941a36ca97af555423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749e0c82d411f70183b3eac605a9dc29') in 0.018694 seconds 
-  Import took 0.021886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.274476 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_Normal.png
-  artifactKey: Guid(6206390b4b4fd924e8e2ba37450f0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Jacket_Normal.png using Guid(6206390b4b4fd924e8e2ba37450f0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23e6408025d6d1c902db277ff4d239a') in 0.006431 seconds 
-  Import took 0.009893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 139.066851 seconds.
-  path: Assets/Materials/Kage_Body.mat
-  artifactKey: Guid(b049ac4655721734aa95fb4a804a0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Body.mat using Guid(b049ac4655721734aa95fb4a804a0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8880e138ab91e8aa861cda24465eabf0') in 0.008863 seconds 
-  Import took 0.012576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.453362 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_Normal.png
-  artifactKey: Guid(a3c7d4673ecaebd459c26988ce9b2e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageRacer (2)_Body_Normal.png using Guid(a3c7d4673ecaebd459c26988ce9b2e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84938684655db95d7bee6069b54c092e') in 0.009777 seconds 
-  Import took 0.013565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.187763 seconds.
-  path: Assets/Materials/Kage_Hair.mat
-  artifactKey: Guid(73bff117e6c8c6648846b7550dbd4e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Hair.mat using Guid(73bff117e6c8c6648846b7550dbd4e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824e3190cc819c5c1fcd6e9c3bbbc141') in 0.008818 seconds 
-  Import took 0.012287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.852264 seconds.
-  path: Assets/Materials/Kage_Body.mat
-  artifactKey: Guid(b049ac4655721734aa95fb4a804a0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Body.mat using Guid(b049ac4655721734aa95fb4a804a0d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddc62b3e2abe402b401e54e3ce06246') in 0.027308 seconds 
-  Import took 0.030685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Materials/Kage_Jacket.mat
-  artifactKey: Guid(9f8936a892f55d24399a3b516fc9c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Jacket.mat using Guid(9f8936a892f55d24399a3b516fc9c156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ee7c46fea0b30911c1b9beeffdde8d') in 0.027749 seconds 
-  Import took 0.030595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Materials/Kage_Hair.mat
-  artifactKey: Guid(73bff117e6c8c6648846b7550dbd4e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Hair.mat using Guid(73bff117e6c8c6648846b7550dbd4e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b0a4e9aec41f7310f1d3400377d273') in 0.009194 seconds 
-  Import took 0.012181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1419.492625 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/Kage_Eye.png
-  artifactKey: Guid(b0c070772bde1a3419d9564d82a79056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/Kage_Eye.png using Guid(b0c070772bde1a3419d9564d82a79056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d128a08aea7235db0e0ec5d3117bff9') in 0.008430 seconds 
-  Import took 0.011689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.113808 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/Kage_Eye.png
-  artifactKey: Guid(b0c070772bde1a3419d9564d82a79056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/Kage_Eye.png using Guid(b0c070772bde1a3419d9564d82a79056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0923dfedab46ddcd81962f067bb539') in 0.018333 seconds 
-  Import took 0.021701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.486477 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/Kage_Eyes.png
-  artifactKey: Guid(f69e83ed686a3484ab36522ac0232128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/Kage_Eyes.png using Guid(f69e83ed686a3484ab36522ac0232128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a775769f445ca90c82cb275f32de926') in 0.007833 seconds 
-  Import took 0.010997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.245002 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/Kage_Eyes.png
-  artifactKey: Guid(f69e83ed686a3484ab36522ac0232128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/Kage_Eyes.png using Guid(f69e83ed686a3484ab36522ac0232128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c1dec8e2097e02aa9293f6765c23a5') in 0.011912 seconds 
-  Import took 0.015580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.512276 seconds.
-  path: Assets/Materials/Kage-Eyes.mat
-  artifactKey: Guid(47b346e2b716fd448a35f19369ba27c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage-Eyes.mat using Guid(47b346e2b716fd448a35f19369ba27c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6392a3a39b25eecd51990204b0cd02') in 0.012172 seconds 
-  Import took 0.015381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 197.187436 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageEyes2.png
-  artifactKey: Guid(debd5704e7e8b2e4588dfe9525b89a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageEyes2.png using Guid(debd5704e7e8b2e4588dfe9525b89a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfa06b7cb5c6bca06695121c6673f6d') in 0.046497 seconds 
-  Import took 0.050032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.689012 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/KageEyes2.png
-  artifactKey: Guid(debd5704e7e8b2e4588dfe9525b89a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/KageEyes2.png using Guid(debd5704e7e8b2e4588dfe9525b89a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deba3deed97537c7a0a7ee49646b9b2a') in 0.018739 seconds 
-  Import took 0.022132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.799294 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Textures/metal02.jpg
-  artifactKey: Guid(0f12cdaefbb6f50438b533b9e05de514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Textures/metal02.jpg using Guid(0f12cdaefbb6f50438b533b9e05de514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cffb7207c2ec4fc9cb848a63f367460') in 0.014942 seconds 
-  Import took 0.018551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Textures/road2Lane_snow.png
-  artifactKey: Guid(1fb995bdef7024c47b67d5e57787afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Textures/road2Lane_snow.png using Guid(1fb995bdef7024c47b67d5e57787afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36f542fa7ae9fd1511820d67fc23f1e') in 0.016559 seconds 
-  Import took 0.019203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 595.286714 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/Kage_Mouth.png
-  artifactKey: Guid(33caee8d72cf3704d861e9a3c3286d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/Kage_Mouth.png using Guid(33caee8d72cf3704d861e9a3c3286d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6f5de5f31fac91598184c2b81047b6') in 0.060279 seconds 
-  Import took 0.063986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.077216 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/Kage_Mouth.png
-  artifactKey: Guid(33caee8d72cf3704d861e9a3c3286d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/Kage_Mouth.png using Guid(33caee8d72cf3704d861e9a3c3286d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e0ecf3c79f2e585da03ce627be8b4a') in 0.009991 seconds 
-  Import took 0.013471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.185294 seconds.
-  path: Assets/Materials/Kage_Mouth.mat
-  artifactKey: Guid(bc0132f7bc166374ebebc347a4846235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Mouth.mat using Guid(bc0132f7bc166374ebebc347a4846235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6279ad2fbcc5174ab6a89ed6cd51a09d') in 0.012370 seconds 
-  Import took 0.015627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.579254 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/Kage_Grin.png
-  artifactKey: Guid(bf2f19cc9b46a0942870934ff30966a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/Kage_Grin.png using Guid(bf2f19cc9b46a0942870934ff30966a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a676a5924855229915a7093b9570e7a0') in 0.009121 seconds 
-  Import took 0.012393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.345816 seconds.
-  path: Assets/Materials/Kage_Racer_Textures/Kage_Grin.png
-  artifactKey: Guid(bf2f19cc9b46a0942870934ff30966a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Kage_Racer_Textures/Kage_Grin.png using Guid(bf2f19cc9b46a0942870934ff30966a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca18a6b6982b53dadb5876414ea8e6b') in 0.022244 seconds 
-  Import took 0.025068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.412578 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Textures/road_b.jpg
-  artifactKey: Guid(dbd66363f37e6534880f241dfae1d06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Textures/road_b.jpg using Guid(dbd66363f37e6534880f241dfae1d06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb544214b1c7de035677ee58a3e464a1') in 0.015949 seconds 
-  Import took 0.019443 seconds .
+  Time since last request: 0.000119 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_MetallicSmoothness 1.png
+  artifactKey: Guid(4d7b75ceefb7728429ad850d2694e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_MetallicSmoothness 1.png using Guid(4d7b75ceefb7728429ad850d2694e266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32551e0f80cc58a18aa4f31ece67f4db') in 0.010696 seconds 
+  Import took 0.013310 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000125 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Albedo/rock 1.tga
-  artifactKey: Guid(88e530318f93b184aa0e7c056b768a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Albedo/rock 1.tga using Guid(88e530318f93b184aa0e7c056b768a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d32309addd9f5fe92f12e0158ccaa7') in 0.016414 seconds 
-  Import took 0.019435 seconds .
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Height 1.png
+  artifactKey: Guid(e62061c82ef797048ae6c3b5613a6cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Height 1.png using Guid(e62061c82ef797048ae6c3b5613a6cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23145685a25797144dd0ee78d6501958') in 0.008455 seconds 
+  Import took 0.011471 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Albedo/rock 2.tga
-  artifactKey: Guid(e2cd37f17a42441438655d25bf6552d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Terrain textures/Albedo/rock 2.tga using Guid(e2cd37f17a42441438655d25bf6552d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1730af045ecb684eb3d6040ca3392635') in 0.013279 seconds 
-  Import took 0.015948 seconds .
+  Time since last request: 0.000121 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Height 1.png
+  artifactKey: Guid(7f9164c39296d3b489abcaa5c7da948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Height 1.png using Guid(7f9164c39296d3b489abcaa5c7da948c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e39fea432227a36a03df2f66bdd831') in 0.008204 seconds 
+  Import took 0.011120 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 247.343293 seconds.
-  path: Assets/Materials/Ember_Racer_Texture/Ember_Suit.mat
-  artifactKey: Guid(7d3a8a7c8004e1149aac1260926cd693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ember_Racer_Texture/Ember_Suit.mat using Guid(7d3a8a7c8004e1149aac1260926cd693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f875d38db050b4393935cccf266be0') in 0.030078 seconds 
-  Import took 0.034329 seconds .
+  Time since last request: 0.000107 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Normal 1.png
+  artifactKey: Guid(867b453e3d227bd47910e23e5b609725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Normal 1.png using Guid(867b453e3d227bd47910e23e5b609725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe99eac34fe6e05fe5c7d767863c5fe') in 0.009636 seconds 
+  Import took 0.012254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.483342 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Emission 1.png
+  artifactKey: Guid(8f2422aa38cbc0d44aa8695acb2c0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Emission 1.png using Guid(8f2422aa38cbc0d44aa8695acb2c0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9168cc5d9af5e5c0c3a62ec2ecaf989') in 0.008689 seconds 
+  Import took 0.012899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.060666 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Normal 1.png
+  artifactKey: Guid(867b453e3d227bd47910e23e5b609725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Normal 1.png using Guid(867b453e3d227bd47910e23e5b609725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1beec2466c1e1673c016565d2f39b9d') in 0.020890 seconds 
+  Import took 0.024314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.758882 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_AlbedoTransparency 1.png
+  artifactKey: Guid(097bdde3d2c865b4e8e0e286a20a3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_AlbedoTransparency 1.png using Guid(097bdde3d2c865b4e8e0e286a20a3ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a7758dac4adc6b8decfe67b4c0e713') in 0.011743 seconds 
+  Import took 0.015443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_AO 1.png
+  artifactKey: Guid(c67e8ba2ae570e4469afa98c95b03582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_AO 1.png using Guid(c67e8ba2ae570e4469afa98c95b03582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714fb5b957c3edde53d7c6205948b98a') in 0.032547 seconds 
+  Import took 0.036044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.584182 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Normal 1.png
+  artifactKey: Guid(0dc0903eccfa19b4cb7cf73a9a880980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Normal 1.png using Guid(0dc0903eccfa19b4cb7cf73a9a880980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad82e041168d87d4c55b4024972cd81') in 0.012022 seconds 
+  Import took 0.015949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.001682 seconds.
+  path: Assets/Materials/Zeru_Body.mat
+  artifactKey: Guid(caac7a75c832a864d926aa748e412859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Body.mat using Guid(caac7a75c832a864d926aa748e412859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583656d439c74be5a8c8b8a3713255f9') in 0.059622 seconds 
+  Import took 0.063663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Materials/Zeru_Ears.mat
+  artifactKey: Guid(ffb52bdc058aa234bb9eafa6aa06bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Ears.mat using Guid(ffb52bdc058aa234bb9eafa6aa06bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4de9db6dfdb20b30e0968750750f765') in 0.048858 seconds 
+  Import took 0.052444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.683110 seconds.
+  path: Assets/Models/Chroma Blimp.fbx
+  artifactKey: Guid(40919d87afab23549ad708e9f8706af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Blimp.fbx using Guid(40919d87afab23549ad708e9f8706af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1cd44c15969fcc3d75e9ac8b1a7479') in 0.128919 seconds 
+  Import took 0.132214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Models/Chroma Gate.fbx
+  artifactKey: Guid(ebf78777963ad0e4380ff0f9a16a0e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Gate.fbx using Guid(ebf78777963ad0e4380ff0f9a16a0e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38df9961c2a5f80f01688e537003ad2e') in 0.045179 seconds 
+  Import took 0.048052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Chroma Skyscraper R.fbx
+  artifactKey: Guid(5e3d22280883b8f4ebae31e22f6b01a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Skyscraper R.fbx using Guid(5e3d22280883b8f4ebae31e22f6b01a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f84928baa62e6826a7752a2134a0d2') in 0.053159 seconds 
+  Import took 0.056311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Models/Chroma Launch Track.fbx
+  artifactKey: Guid(8d4d1dee63935f64b88e7baf873ab355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Launch Track.fbx using Guid(8d4d1dee63935f64b88e7baf873ab355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6c213ea649cf31545e50b89f00d617') in 0.033720 seconds 
+  Import took 0.036982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Models/Chroma Skyscraper S.fbx
+  artifactKey: Guid(139ebc14faaa292418d76add3b628a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Skyscraper S.fbx using Guid(139ebc14faaa292418d76add3b628a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649d779957a79c4c0fc3c13eed8f8c5f') in 0.038432 seconds 
+  Import took 0.041378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Chroma Sailfloat.fbx
+  artifactKey: Guid(85e7776381dc3eb4195c8283e211b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Sailfloat.fbx using Guid(85e7776381dc3eb4195c8283e211b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093dc4842b2f276c402a06e92ce05187') in 0.035275 seconds 
+  Import took 0.037829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Models/Chroma Bounce Platform.fbx
+  artifactKey: Guid(6663210f5a4f0d44b990f3e0f778b22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Bounce Platform.fbx using Guid(6663210f5a4f0d44b990f3e0f778b22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0296ce66e4b30af293a59bc6c1b78253') in 0.026413 seconds 
+  Import took 0.029367 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

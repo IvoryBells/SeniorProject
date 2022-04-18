@@ -1,0 +1,419 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16308 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Annab/Documents/Projects/SeniorProject/GMNG4340_SeniorProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1063
+Successfully changed project path to: C:/Users/Annab/Documents/Projects/SeniorProject/GMNG4340_SeniorProject
+C:/Users/Annab/Documents/Projects/SeniorProject/GMNG4340_SeniorProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Annab/Documents/Projects/SeniorProject/GMNG4340_SeniorProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001072 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.401 seconds
+Domain Reload Profiling:
+	ReloadAssembly (401ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (119ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002962 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 2.739200 ms (FindLiveObjects: 0.157500 ms CreateObjectMapping: 0.066700 ms MarkObjects: 2.425400 ms  DeleteObjects: 0.088700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Models/Galactica_Final_Unity.fbx
+  artifactKey: Guid(36b3b91621119a7438cebb6c4e4c7c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Galactica_Final_Unity.fbx using Guid(36b3b91621119a7438cebb6c4e4c7c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a870b13317a4509a7e118c4027245793') in 0.225178 seconds 
+  Import took 0.230430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Materials/Galactica_Eyes.mat
+  artifactKey: Guid(8a18c0575d373b1489e874f65d98b2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Galactica_Eyes.mat using Guid(8a18c0575d373b1489e874f65d98b2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becb1ab6181c2291d383a4fc008f3810') in 0.013996 seconds 
+  Import took 0.017039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Materials/Galactica_Mouth.mat
+  artifactKey: Guid(1bffbb34d31dbba4d94ce77fca4d4c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Galactica_Mouth.mat using Guid(1bffbb34d31dbba4d94ce77fca4d4c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b4669704a13ccbea69f6d572c039a1') in 0.009140 seconds 
+  Import took 0.011917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.164939 seconds.
+  path: Assets/Models/Galactica_SP4Unity.fbx
+  artifactKey: Guid(6abbd7361c868564185b30de2e2964fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Galactica_SP4Unity.fbx using Guid(6abbd7361c868564185b30de2e2964fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24449a15a17f633d051e4eed350786d') in 0.130676 seconds 
+  Import took 0.135611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.893769 seconds.
+  path: Assets/Models/Zeru_4Unity.fbx
+  artifactKey: Guid(c19721ea5bbb10248bb610c3d82933aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Zeru_4Unity.fbx using Guid(c19721ea5bbb10248bb610c3d82933aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad769fdbb332b66b4277f20597d164d') in 0.039326 seconds 
+  Import took 0.043180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.808553 seconds.
+  path: Assets/Materials/Galactia_Racer
+  artifactKey: Guid(cbd7919df1c68ca4ebad1933b2b84cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Galactia_Racer using Guid(cbd7919df1c68ca4ebad1933b2b84cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdce01a9faa5141c7aa7fa5de7380d34') in 0.004293 seconds 
+  Import took 0.007533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.494259 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_AlbedoTransparency.png
+  artifactKey: Guid(fa1cfc4ef785a8142875f48f6968090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_AlbedoTransparency.png using Guid(fa1cfc4ef785a8142875f48f6968090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d8da30f0f18a2a93e76a3194411541') in 0.023596 seconds 
+  Import took 0.026818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Normal.png
+  artifactKey: Guid(2a2a7a719b99d3f4bb1a16ecb20fcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Normal.png using Guid(2a2a7a719b99d3f4bb1a16ecb20fcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5215221f6b9d3122b8ae5767d17c72') in 0.010272 seconds 
+  Import took 0.013146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Height.png
+  artifactKey: Guid(4519203d502186044b26b3c9c59005aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Height.png using Guid(4519203d502186044b26b3c9c59005aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba432d4e9476a7b9975065d158ba50e') in 0.010802 seconds 
+  Import took 0.013475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Height.png
+  artifactKey: Guid(e95658b8fbe606e48820b1bd8c0298f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Height.png using Guid(e95658b8fbe606e48820b1bd8c0298f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299b5f17093f4b90e8fcdae243609847') in 0.019929 seconds 
+  Import took 0.022519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Emission.png
+  artifactKey: Guid(dfb70718c80d884438d40095f34b7610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Emission.png using Guid(dfb70718c80d884438d40095f34b7610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83ba42a4d82256927bdb0061bdb950c') in 0.105918 seconds 
+  Import took 0.109037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_MetallicSmoothness.png
+  artifactKey: Guid(00eab4d82a908f14fa932b4f4412643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_MetallicSmoothness.png using Guid(00eab4d82a908f14fa932b4f4412643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b2113fd7795369c4c63965b131db1f') in 0.011442 seconds 
+  Import took 0.014461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_AlbedoTransparency.png
+  artifactKey: Guid(0ef1b897225be4843821108908aff01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_AlbedoTransparency.png using Guid(0ef1b897225be4843821108908aff01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cff0bf0e0844ce95d9e1e0e6f9435b') in 0.008823 seconds 
+  Import took 0.011947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Normal.png
+  artifactKey: Guid(4904ead41e01c704e8cc2c6e96725755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Normal.png using Guid(4904ead41e01c704e8cc2c6e96725755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c3d004703ce93d76f0fd07465bc5b2') in 0.009145 seconds 
+  Import took 0.012532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_AO.png
+  artifactKey: Guid(3a8c91b0b8e53f94c8bb0929865a8acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_AO.png using Guid(3a8c91b0b8e53f94c8bb0929865a8acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b001861522732e2201a18a9755d5b4') in 0.010207 seconds 
+  Import took 0.013424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_MetallicSmoothness.png
+  artifactKey: Guid(6b159fa59c822a04da741b0d98241ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_MetallicSmoothness.png using Guid(6b159fa59c822a04da741b0d98241ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59e9ea73b5b30383fe758063309611d') in 0.010266 seconds 
+  Import took 0.013741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Emission.png
+  artifactKey: Guid(cef9b1481643d434ea70d6fc6879132b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Emission.png using Guid(cef9b1481643d434ea70d6fc6879132b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b236cfb88e18a2f782cfbb20596761') in 0.010169 seconds 
+  Import took 0.012872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_AO.png
+  artifactKey: Guid(77694c31f24618f4e8063ed275419de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_AO.png using Guid(77694c31f24618f4e8063ed275419de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452e0c83c10d37c4c56dcc94cb7e2801') in 0.010645 seconds 
+  Import took 0.013849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.468589 seconds.
+  path: Assets/Materials/Zeru_Body.mat
+  artifactKey: Guid(caac7a75c832a864d926aa748e412859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Body.mat using Guid(caac7a75c832a864d926aa748e412859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9076619ee29b3c2050cdf7157d36fffa') in 0.010862 seconds 
+  Import took 0.014059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.740890 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Normal.png
+  artifactKey: Guid(2a2a7a719b99d3f4bb1a16ecb20fcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Body1_Normal.png using Guid(2a2a7a719b99d3f4bb1a16ecb20fcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7077783df2b330977a67814ee9ba991d') in 0.011672 seconds 
+  Import took 0.015103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.639871 seconds.
+  path: Assets/Materials/Zeru_Ears.mat
+  artifactKey: Guid(ffb52bdc058aa234bb9eafa6aa06bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Ears.mat using Guid(ffb52bdc058aa234bb9eafa6aa06bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98cbefd34f004a2bcf8bb1b2df83262') in 0.028835 seconds 
+  Import took 0.032404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.931052 seconds.
+  path: Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Normal.png
+  artifactKey: Guid(4904ead41e01c704e8cc2c6e96725755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zeru_SubstancePainter_Fixed_Ears1_Normal.png using Guid(4904ead41e01c704e8cc2c6e96725755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9e4bc29d0122c91d641f3917cd789c') in 0.011588 seconds 
+  Import took 0.015316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.849030 seconds.
+  path: Assets/Materials/Zeru_Body.mat
+  artifactKey: Guid(caac7a75c832a864d926aa748e412859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Body.mat using Guid(caac7a75c832a864d926aa748e412859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab6d09739360a708b49432f2e5a8167') in 0.024346 seconds 
+  Import took 0.029211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Materials/Zeru_Ears.mat
+  artifactKey: Guid(ffb52bdc058aa234bb9eafa6aa06bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Ears.mat using Guid(ffb52bdc058aa234bb9eafa6aa06bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91da9717f99329557b7868b77e46e3bd') in 0.020568 seconds 
+  Import took 0.024175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 653.562738 seconds.
+  path: Assets/Art/ZeruEye.png
+  artifactKey: Guid(0f09aa7cddb48a74faa27728312c7299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEye.png using Guid(0f09aa7cddb48a74faa27728312c7299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6777723b2be2714dea4eb3e765929bba') in 0.040886 seconds 
+  Import took 0.062074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.830952 seconds.
+  path: Assets/Art/ZeruEye.png
+  artifactKey: Guid(0f09aa7cddb48a74faa27728312c7299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEye.png using Guid(0f09aa7cddb48a74faa27728312c7299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92693c32c08f285b443aeaf2af13fe77') in 0.048782 seconds 
+  Import took 0.052294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.019839 seconds.
+  path: Assets/Materials/Zeru_Eye.mat
+  artifactKey: Guid(c88228ee1d983374f8ffe5ba62f29276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Eye.mat using Guid(c88228ee1d983374f8ffe5ba62f29276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a99e6d429c6391fc5c482b5ffc8bf55') in 0.012822 seconds 
+  Import took 0.016011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 579.023603 seconds.
+  path: Assets/Art/ZeruEye (1).png
+  artifactKey: Guid(ae32a9b86344f444797c7be38a9820ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEye (1).png using Guid(ae32a9b86344f444797c7be38a9820ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875111ac6c2f45d7c65033a386cd35c8') in 0.040965 seconds 
+  Import took 0.062576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.980118 seconds.
+  path: Assets/Art/ZeruEye (1).png
+  artifactKey: Guid(ae32a9b86344f444797c7be38a9820ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEye (1).png using Guid(ae32a9b86344f444797c7be38a9820ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd669291f459117ec2aef9fbfbbe54c73') in 0.014236 seconds 
+  Import took 0.017229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.124387 seconds.
+  path: Assets/Art/ZeruEyeUV.png
+  artifactKey: Guid(801b0b380da2c684cb5df8112cf9657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEyeUV.png using Guid(801b0b380da2c684cb5df8112cf9657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed370880396b9e4e08fc608dd4ad4429') in 0.013916 seconds 
+  Import took 0.017996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.296976 seconds.
+  path: Assets/Art/ZeruEyeUV.png
+  artifactKey: Guid(801b0b380da2c684cb5df8112cf9657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEyeUV.png using Guid(801b0b380da2c684cb5df8112cf9657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfc1edcef0eab5b9f3947e26a407299') in 0.014969 seconds 
+  Import took 0.018946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.337191 seconds.
+  path: Assets/Art/ZeruEyeUV (1).png
+  artifactKey: Guid(23bb631bd51bbb2489350cf53eee22ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEyeUV (1).png using Guid(23bb631bd51bbb2489350cf53eee22ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdcbce51cfe2b2466baeedc84a22cd7') in 0.012759 seconds 
+  Import took 0.017849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.276571 seconds.
+  path: Assets/Art/ZeruEyeUV (1).png
+  artifactKey: Guid(23bb631bd51bbb2489350cf53eee22ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEyeUV (1).png using Guid(23bb631bd51bbb2489350cf53eee22ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb35934476125a49576f425c57118a5d') in 0.016178 seconds 
+  Import took 0.020022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.076353 seconds.
+  path: Assets/Art/ZeruEyeUV (2).png
+  artifactKey: Guid(40bedcc1bad13bc4f9a57eecd774765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEyeUV (2).png using Guid(40bedcc1bad13bc4f9a57eecd774765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aae08380cd6d6c476aa070c540ac39') in 0.025664 seconds 
+  Import took 0.029050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.235143 seconds.
+  path: Assets/Art/ZeruEyeUV (2).png
+  artifactKey: Guid(40bedcc1bad13bc4f9a57eecd774765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/ZeruEyeUV (2).png using Guid(40bedcc1bad13bc4f9a57eecd774765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0e8a06e16c38c5e57dc5a4c28dcc3d') in 0.028737 seconds 
+  Import took 0.032579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.597272 seconds.
+  path: Assets/Materials/Zeru_Eye.mat
+  artifactKey: Guid(c88228ee1d983374f8ffe5ba62f29276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Eye.mat using Guid(c88228ee1d983374f8ffe5ba62f29276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef1530661d20848f53f0124e2778283') in 0.018172 seconds 
+  Import took 0.021771 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
