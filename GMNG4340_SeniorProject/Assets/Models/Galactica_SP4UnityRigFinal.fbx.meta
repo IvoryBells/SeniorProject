@@ -3,7 +3,42 @@ guid: 9918729f70ab04941959c96c2ea9958c
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes1
+    second: {fileID: 2100000, guid: 8a18c0575d373b1489e874f65d98b2b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GalacticaRacer_Body6
+    second: {fileID: 2100000, guid: 8c3dfdd1f35adc745ad48fc3a4cb30b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GalacticaRacer_Hair2
+    second: {fileID: 2100000, guid: 2892711c43508794c9c30001dd510682, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GalacticaRacer_Jetpack1
+    second: {fileID: 2100000, guid: 90ae60ba39eab7f42962165159c99ad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GalacticaRacer_Thrusters2
+    second: {fileID: 2100000, guid: 0ca8f2fb74194104cb75173d853479c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassVisor1
+    second: {fileID: 2100000, guid: 7e1693ba1b5a03046a3c798eca6f48fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouth1
+    second: {fileID: 2100000, guid: 1bffbb34d31dbba4d94ce77fca4d4c2f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
