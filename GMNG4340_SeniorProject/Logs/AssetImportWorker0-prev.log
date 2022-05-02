@@ -1,123 +1,123 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16237 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16309 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
+D:\Senior Project\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/trues/OneDrive/Documents/GitHub/SeniorProject/GMNG4340_SeniorProject
+D:/GitHub/SeniorProject/GMNG4340_SeniorProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55546
-Successfully changed project path to: C:/Users/trues/OneDrive/Documents/GitHub/SeniorProject/GMNG4340_SeniorProject
-C:/Users/trues/OneDrive/Documents/GitHub/SeniorProject/GMNG4340_SeniorProject
+51931
+Successfully changed project path to: D:/GitHub/SeniorProject/GMNG4340_SeniorProject
+D:/GitHub/SeniorProject/GMNG4340_SeniorProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.21 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 231.08 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/trues/OneDrive/Documents/GitHub/SeniorProject/GMNG4340_SeniorProject/Assets
+[Subsystems] Discovering subsystems at path D:/Senior Project/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/SeniorProject/GMNG4340_SeniorProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   30.0.15.1165
+    VRAM:     8031 MB
+    Driver:   27.21.14.5671
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Mono path[0] = 'D:/Senior Project/Editor/Data/Managed'
+Mono path[1] = 'D:/Senior Project/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Senior Project/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001742 seconds.
+Register platform support module: D:/Senior Project/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002040 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.84 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 166.04 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.479 seconds
+- Completed reload, in  2.381 seconds
 Domain Reload Profiling:
-	ReloadAssembly (479ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (2381ms)
+		BeginReloadAssembly (269ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (365ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (1900ms)
+			LoadAssemblies (269ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (460ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (142ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (969ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (472ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017233 seconds.
+Registered in 0.070444 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.55 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 126.17 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.541 seconds
+- Completed reload, in  4.441 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1542ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (4443ms)
+		BeginReloadAssembly (423ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1364ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (3887ms)
+			LoadAssemblies (256ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (892ms)
+			SetupTypeCache (776ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (2530ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (769ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (2217ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2756 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.8 MB.
-System memory in use after: 122.0 MB.
+Unloading 2757 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 133.0 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3184.
-Total: 3.250100 ms (FindLiveObjects: 0.183500 ms CreateObjectMapping: 0.095400 ms MarkObjects: 2.884400 ms  DeleteObjects: 0.085800 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3198.
+Total: 8.244400 ms (FindLiveObjects: 0.540400 ms CreateObjectMapping: 0.178600 ms MarkObjects: 7.253700 ms  DeleteObjects: 0.269000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,23 +126,166 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/PyreSlab.unity
-  artifactKey: Guid(ad5da3f61bd3d9d468f142d72beef508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/PyreSlab.unity using Guid(ad5da3f61bd3d9d468f142d72beef508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5adb497365413f697d90a2ee1b7903') in 0.013765 seconds 
-  Import took 0.017064 seconds .
+  path: Assets/Models/Chroma Simple Track Curve.fbx
+  artifactKey: Guid(6fbca5bea8cfef94388c9452323507c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Simple Track Curve.fbx using Guid(6fbca5bea8cfef94388c9452323507c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bc1d882bf06d57de5c17143cfde74c') in 0.534194 seconds 
+  Import took 0.540048 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 102.244560 seconds.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Models/ChromaEmberRig.fbx
+  artifactKey: Guid(8fb877c27f4b2ca49bb65eb730c5c81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ChromaEmberRig.fbx using Guid(8fb877c27f4b2ca49bb65eb730c5c81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48bd89b0ed9426578032082e63640cc') in 0.420849 seconds 
+  Import took 0.445197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Models/Chroma Simple Track Straight.fbx
+  artifactKey: Guid(5e5d344100f624e4ab50797057e0a279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Simple Track Straight.fbx using Guid(5e5d344100f624e4ab50797057e0a279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de7b6a9dab979fda3f27cf2c78c8608') in 0.037769 seconds 
+  Import took 0.044626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
   path: Assets/Models/Chroma Hoverbike.fbx
   artifactKey: Guid(d1fa6bf3e468b8c46a90529dc2d3d91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Chroma Hoverbike.fbx using Guid(d1fa6bf3e468b8c46a90529dc2d3d91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e447ff496dcc68c5481db36c3bb8b63') in 0.227278 seconds 
-  Import took 0.231161 seconds .
+Start importing Assets/Models/Chroma Hoverbike.fbx using Guid(d1fa6bf3e468b8c46a90529dc2d3d91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e447ff496dcc68c5481db36c3bb8b63') in 0.195892 seconds 
+  Import took 0.205666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Models/Chroma Simple Rail Curve.fbx
+  artifactKey: Guid(a4b7c45dd1549814d9ff952f2e35baec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Simple Rail Curve.fbx using Guid(a4b7c45dd1549814d9ff952f2e35baec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb17a2342ccaaccf543ffa2e057071c9') in 0.042069 seconds 
+  Import took 0.047502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Models/Galactica_SP4UnityRigFinal.fbx
+  artifactKey: Guid(9918729f70ab04941959c96c2ea9958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Galactica_SP4UnityRigFinal.fbx using Guid(9918729f70ab04941959c96c2ea9958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ee782ba074d5e1ccde805a6edd2555') in 0.355374 seconds 
+  Import took 0.372995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Models/Galactica_SP4UnityRigTEST.fbx
+  artifactKey: Guid(3418a2308305be144a2c9fd40f13041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Galactica_SP4UnityRigTEST.fbx using Guid(3418a2308305be144a2c9fd40f13041b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febc2547dbe4949d0a6aec099fc1a80e') in 0.304826 seconds 
+  Import took 0.318094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Models/Chroma Simple Rail Straight.fbx
+  artifactKey: Guid(9cc016e05b1002247b41e089e29a5fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Simple Rail Straight.fbx using Guid(9cc016e05b1002247b41e089e29a5fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a56ebfcf0f985385e3e3d0f1491c78') in 0.061615 seconds 
+  Import took 0.068525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Models/Chroma Floating Platform 2.fbx
+  artifactKey: Guid(3f06110ad74181948bef22dd5ecad7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Chroma Floating Platform 2.fbx using Guid(3f06110ad74181948bef22dd5ecad7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de1f86aa59e9ee1ee37f9ce6e1cbbee') in 0.060818 seconds 
+  Import took 0.066318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Models/KageRacerRig.fbx
+  artifactKey: Guid(564929ab83fc5f9449ddfeb249d1c215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/KageRacerRig.fbx using Guid(564929ab83fc5f9449ddfeb249d1c215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49f549bca79f6a4b5ed7e13a8cd6cdd') in 0.217175 seconds 
+  Import took 0.227697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Models/Zeru_4UnityRig.fbx
+  artifactKey: Guid(94118ca5bf646044facfd34499ec39d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Zeru_4UnityRig.fbx using Guid(94118ca5bf646044facfd34499ec39d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8923f35012fbca90db2a2bc07f43691f') in 0.149971 seconds 
+  Import took 0.160087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.959002 seconds.
+  path: Assets/Models/New TrACK
+  artifactKey: Guid(8bd8066ba8febbf49af7b8226aa861c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New TrACK using Guid(8bd8066ba8febbf49af7b8226aa861c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ca389a23b78b8f7b3d850c90f436bc') in 0.007488 seconds 
+  Import took 0.012492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075076 seconds.
+  path: Assets/Models/New TrACK/Chroma Proto Track 01.fbx
+  artifactKey: Guid(efef9f87415648c4a852bf59732bd342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New TrACK/Chroma Proto Track 01.fbx using Guid(efef9f87415648c4a852bf59732bd342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed697adb3106302afe795119adb7e255') in 0.055716 seconds 
+  Import took 0.061937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Models/New TrACK/Chroma Proto Track 03a.fbx
+  artifactKey: Guid(6dc1a5f5aa18330409082a10bf243fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New TrACK/Chroma Proto Track 03a.fbx using Guid(6dc1a5f5aa18330409082a10bf243fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff66d1e56eb1ee6cb8378711c7a04e1') in 0.090951 seconds 
+  Import took 0.096442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Models/New TrACK/Chroma Proto Track 03c.fbx
+  artifactKey: Guid(3a1a6bc886c8a1942bc93135a6505ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New TrACK/Chroma Proto Track 03c.fbx using Guid(3a1a6bc886c8a1942bc93135a6505ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988d7d1833da8780d9fc73fd026f16ca') in 0.068406 seconds 
+  Import took 0.075646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Models/New TrACK/P_A1_1.fbx
+  artifactKey: Guid(0ed832399e1ef094ea05b75ef4a0eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New TrACK/P_A1_1.fbx using Guid(0ed832399e1ef094ea05b75ef4a0eb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ca0f386eaddcb0a1b555273e01455c') in 0.058118 seconds 
+  Import took 0.070081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Models/New TrACK/Chroma Proto Track 02.fbx
+  artifactKey: Guid(bfea6754032b2644c80fd6214089b1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New TrACK/Chroma Proto Track 02.fbx using Guid(bfea6754032b2644c80fd6214089b1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45956f8fbc789fd2682d99a33b433a5b') in 0.037959 seconds 
+  Import took 0.044926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Models/New TrACK/Chroma Proto Track 03b.fbx
+  artifactKey: Guid(011acdabc98b3e946b92d22abc3a95a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New TrACK/Chroma Proto Track 03b.fbx using Guid(011acdabc98b3e946b92d22abc3a95a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c6bfcf5a5812c27b03229f82dd41a7') in 0.045836 seconds 
+  Import took 0.053996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.927650 seconds.
+  path: Assets/Scenes/ChromaCityRework.unity
+  artifactKey: Guid(972305d1ab2eec14c818a36c50b00123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ChromaCityRework.unity using Guid(972305d1ab2eec14c818a36c50b00123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2be93a700ec6b3b245f012410a9b42') in 0.008580 seconds 
+  Import took 0.014321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.208486 seconds.
+  path: Assets/Scenes/ChromaCityTRAILER.unity
+  artifactKey: Guid(5c4d3e00f49c1284cb95c1f5d7b6adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ChromaCityTRAILER.unity using Guid(5c4d3e00f49c1284cb95c1f5d7b6adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f575fa4c1b60b7ab69cb40e91c1c941') in 0.016218 seconds 
+  Import took 0.024692 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
