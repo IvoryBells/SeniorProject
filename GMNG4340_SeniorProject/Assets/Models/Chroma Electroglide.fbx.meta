@@ -3,7 +3,17 @@ guid: cdd165443318c554e9d561a6f47b1f90
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue Glow
+    second: {fileID: 2100000, guid: 94811c683cafd6544b901a9eb2bc5be7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 44580267656e505409b2721071eb9856, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
