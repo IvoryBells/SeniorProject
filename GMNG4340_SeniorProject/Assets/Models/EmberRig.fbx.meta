@@ -1,52 +1,33 @@
 fileFormatVersion: 2
-guid: 564929ab83fc5f9449ddfeb249d1c215
+guid: df6a5b3ba79e5a24b808664102fafb60
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable:
-  - first:
-      74: -5045508177491208150
-    second: Armature|ActionBase
-  - first:
-      74: -7672651380302590574
-    second: Armature|Hovering
-  - first:
-      74: 5846866069205115685
-    second: Armature|Hovering (1)
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Body
-    second: {fileID: 2100000, guid: b049ac4655721734aa95fb4a804a0d58, type: 2}
+      name: Ember Helmet Material
+    second: {fileID: 2100000, guid: 9a3c9157d3f788d48970bda63dae34f4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Eyes
-    second: {fileID: 2100000, guid: 47b346e2b716fd448a35f19369ba27c9, type: 2}
+      name: Ember Suit Material
+    second: {fileID: 2100000, guid: 7d3a8a7c8004e1149aac1260926cd693, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Glow White
+      name: Ember Visor Material
+    second: {fileID: 2100000, guid: 89e5bd1e54321d24794de29d39a8d9e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glow Red
     second: {fileID: 2100000, guid: 8cf0f4da272258e45ab1caf145652def, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Hair
-    second: {fileID: 2100000, guid: 73bff117e6c8c6648846b7550dbd4e53, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Jacket
-    second: {fileID: 2100000, guid: 9f8936a892f55d24399a3b516fc9c156, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mouth
-    second: {fileID: 2100000, guid: bc0132f7bc166374ebebc347a4846235, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: White
+      name: lambert1
     second: {fileID: 2100000, guid: 3bb4a56438779f34dbe129dc28cdf4d9, type: 2}
   materials:
     materialImportMode: 2
@@ -74,36 +55,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Armature|Hovering
-      takeName: Armature|Hovering
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 59
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -159,7 +111,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: Root
+    rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -167,7 +119,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
