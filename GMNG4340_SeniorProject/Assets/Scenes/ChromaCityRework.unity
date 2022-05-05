@@ -18024,7 +18024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   directionFlight: {x: -3.044, y: 50, z: -17.725}
-  speed: 0
+  speed: 10
 --- !u!65 &1484917542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21418,7 +21418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   directionFlight: {x: -50, y: 50, z: -17.952}
-  speed: 0
+  speed: 10
 --- !u!65 &1748454401
 BoxCollider:
   m_ObjectHideFlags: 0
