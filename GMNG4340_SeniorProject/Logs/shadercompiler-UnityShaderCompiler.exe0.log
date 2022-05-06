@@ -1,4 +1,3 @@
 Base path: 'D:/Senior Project/Editor/Data', plugins path 'D:/Senior Project/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
-Cmd: shutdown
