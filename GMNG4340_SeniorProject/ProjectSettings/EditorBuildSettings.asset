@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/OfficialGameLevels/MainMenu.unity
     guid: dec28fa63e0a22c48a01c46018d09524
   - enabled: 1
-    path: Assets/Scenes/CharacterSelection.unity
+    path: Assets/Scenes/OfficialGameLevels/CharacterSelection.unity
     guid: 457574e7b696b7c4997e58d77804c345
   - enabled: 1
-    path: Assets/Scenes/ChromaCityRework.unity
+    path: Assets/Scenes/OfficialGameLevels/ChromaCityRework.unity
     guid: 972305d1ab2eec14c818a36c50b00123
   m_configObjects: {}
