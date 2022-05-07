@@ -138,6 +138,8 @@ GameObject:
   - component: {fileID: 4029969852688638924}
   - component: {fileID: 4029969852688638925}
   - component: {fileID: 1148578647327283786}
+  - component: {fileID: 4005456507045011078}
+  - component: {fileID: 5745438017802435460}
   m_Layer: 0
   m_Name: Cube Player
   m_TagString: Untagged
@@ -317,3 +319,33 @@ MonoBehaviour:
   _gas: 0
   _drift: 0
   _boost: 0
+--- !u!114 &4005456507045011078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4029969852688638919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e3d5b314a335b54cafc738bfb0fd937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  loopSpeed: 0
+  wpRadius: 0
+  wpCurrent: 0
+--- !u!114 &5745438017802435460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4029969852688638919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2a64c21c660dd47936cf576cca6ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRender: {fileID: 4029969852688638919}
+  particles: {fileID: 0}

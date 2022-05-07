@@ -44,9 +44,9 @@ public class RacecarController : MonoBehaviour
         _boost = boost.ToInputAction().ReadValue<float>() > 0;
 
         //GUILayout.Label(_steer.ToString());
-        GUILayout.Label(_gas.ToString());
-        GUILayout.Label(_drift.ToString());
-        GUILayout.Label(_boost.ToString());
+        //GUILayout.Label(_gas.ToString());
+        //GUILayout.Label(_drift.ToString());
+        //GUILayout.Label(_boost.ToString());
     }
 
 
