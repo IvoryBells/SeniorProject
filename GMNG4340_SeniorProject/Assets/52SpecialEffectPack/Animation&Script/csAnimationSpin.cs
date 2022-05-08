@@ -3,10 +3,10 @@ using System.Collections;
 
 public class csAnimationSpin : MonoBehaviour {
 
-    Animation an;
+    Animator an;
 
 	void Update () {
-        an = gameObject.GetComponent<Animation>();
-        an.Play();
+        an = gameObject.GetComponent<Animator>();
+        //an.gameObject.GetComponent<Animator>().Play();
 	}
 }
