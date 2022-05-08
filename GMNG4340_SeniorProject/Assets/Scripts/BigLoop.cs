@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class BigLoop : MonoBehaviour
 {
-    public GameObject meshRender;
+    public GameObject[] skinRenders;
     public GameObject particles;
+    public GameObject waypoint;
+    public GameObject player;
     
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
+        waypoint = GameObject.FindGameObjectWithTag("Big Waypoint");
+
+        skinRenders = GameObject.FindGameObjectsWithTag("Skin Render");
+        /*for (int i = 0; i < gameObjects.Length; i++)
+        {
+            skinRenders[i] = gameObjects[i];
+        }*/
+
+        player = GameObject.FindGameObjectWithTag("Player");
+
         particles.SetActive(false);
-        meshRender.SetActive(true);
-        meshRender.GetComponent<Waypoints>().enabled = false;
+        waypoint.GetComponent<Waypoints>().enabled = true;
         //meshRender.GetComponent<Rigidbody>().useGravity = true;
     }
 
@@ -21,20 +32,28 @@ public class BigLoop : MonoBehaviour
     {
         if (other.gameObject.tag == "Big Loop")
         {
-            meshRender.GetComponent<MeshRenderer>().enabled = false;
+            for (int i = 0; i < skinRenders.Length; i++)
+            {
+                skinRenders[i].GetComponent<SkinnedMeshRenderer>().enabled = false;
+            }
             particles.SetActive(true);
             //meshRender.GetComponent<SphereCollider>().enabled = false;
-            meshRender.GetComponent<RacecarController>().enabled = false;
-            meshRender.GetComponent<Waypoints>().enabled = true;
+            player.GetComponent<RacecarController>().enabled = false;
+            waypoint.GetComponent<Waypoints>().enabled = true;
+            waypoint.GetComponent<Waypoints>().gravity = false;
         }
         else if (other.gameObject.tag == "Big Loop End")
         {
-            meshRender.GetComponent<MeshRenderer>().enabled = true;
+            for (int i = 0; i < skinRenders.Length; i++)
+            {
+                skinRenders[i].GetComponent<SkinnedMeshRenderer>().enabled = true;
+            }
             particles.SetActive(false);
-            meshRender.GetComponent<Rigidbody>().useGravity = true;
+            player.GetComponent<Rigidbody>().useGravity = true;
             //meshRender.GetComponent<SphereCollider>().enabled = true;
-            meshRender.GetComponent<RacecarController>().enabled = true;
-            meshRender.GetComponent<Waypoints>().enabled = false;
+            player.GetComponent<RacecarController>().enabled = true;
+            waypoint.GetComponent<Waypoints>().gravity = true;
+            waypoint.GetComponent<Waypoints>().enabled = false;
         }
     }
 }

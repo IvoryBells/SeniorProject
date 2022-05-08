@@ -4,30 +4,36 @@ using UnityEngine;
 
 public class Waypoints : MonoBehaviour
 {
+    public GameObject player;
     public GameObject[] waypoints;
     public int loopSpeed;
     public float wpRadius;
     public int wpCurrent = 0;
+    public bool gravity = true;
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
+        this.GetComponent<Waypoints>().enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        this.GetComponent<Rigidbody>().useGravity = false;
+        if (gravity == false)
+        {
+            player.GetComponent<Rigidbody>().useGravity = false;
+        }
 
-        if (Vector3.Distance(waypoints[wpCurrent].transform.position, transform.position) < wpRadius)
+        if (Vector3.Distance(waypoints[wpCurrent].transform.position, player.transform.position) < wpRadius)
         {
             wpCurrent++;
             if (wpCurrent >= waypoints.Length)
             {
-                this.GetComponent<Rigidbody>().AddForce(this.transform.forward * loopSpeed);
+                player.GetComponent<Rigidbody>().AddForce(player.transform.forward * loopSpeed);
                 this.GetComponent<Waypoints>().enabled = false;
             }
         }
-        transform.position = Vector3.MoveTowards(transform.position, waypoints[wpCurrent].transform.position, Time.deltaTime * loopSpeed);
+        player.transform.position = Vector3.MoveTowards(player.transform.position, waypoints[wpCurrent].transform.position, Time.deltaTime * loopSpeed);
     }
 }
