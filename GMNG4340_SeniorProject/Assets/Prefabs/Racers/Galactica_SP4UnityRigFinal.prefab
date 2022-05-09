@@ -40875,6 +40875,7 @@ GameObject:
   - component: {fileID: 5074628979381393645}
   - component: {fileID: 1859961348852826834}
   - component: {fileID: 787240459578630125}
+  - component: {fileID: 4998161031779451158}
   m_Layer: 0
   m_Name: Galactica_SP4UnityRigFinal
   m_TagString: Player
@@ -41042,6 +41043,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0565940cfc214674498c9b46fa8504ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4998161031779451158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5783229182646417882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4131398142592da469da4398915823ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinRenders: []
+  particles: {fileID: 5934952199230742617}
+  shortcut: {fileID: 0}
+  player: {fileID: 0}
+  shortcutRotation: {x: 0, y: 0.33792493, z: 0, w: 0.9411731}
+  lerpTime: 10
 --- !u!1 &5785026288364025054
 GameObject:
   m_ObjectHideFlags: 0

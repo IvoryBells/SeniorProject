@@ -10,6 +10,9 @@ TagManager:
   - Particles
   - Big Waypoint
   - Skin Render
+  - Shortcut
+  - Shortcut Start
+  - Shortcut End
   layers:
   - Default
   - TransparentFX
