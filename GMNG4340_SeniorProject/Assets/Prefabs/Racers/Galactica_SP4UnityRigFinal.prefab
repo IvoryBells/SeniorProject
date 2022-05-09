@@ -40876,7 +40876,7 @@ GameObject:
   - component: {fileID: 1859961348852826834}
   - component: {fileID: 787240459578630125}
   - component: {fileID: 4998161031779451158}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Galactica_SP4UnityRigFinal
   m_TagString: Player
   m_Icon: {fileID: 0}
