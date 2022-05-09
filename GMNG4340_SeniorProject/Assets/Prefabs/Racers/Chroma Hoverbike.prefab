@@ -5759,7 +5759,7 @@ GameObject:
   - component: {fileID: 7940172060728035751}
   - component: {fileID: 373003251542793372}
   - component: {fileID: 1919598568616871930}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chroma Hoverbike
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -5939,13 +5939,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4392515875865464667}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4131398142592da469da4398915823ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 083744a208a3e8247950832138c8e874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skinRenders: []
   particles: {fileID: 8045768186764645461}
   shortcut: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 4392515875865464667}
   shortcutRotation: {x: 0, y: 0.33792493, z: 0, w: 0.9411731}
   lerpTime: 10
 --- !u!1 &4480509218834751643

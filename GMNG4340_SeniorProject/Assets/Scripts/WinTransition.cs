@@ -1,18 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinTransition : MonoBehaviour
 {
-    private GameObject character;
-    private LapSystem num;
-    
- 
+    public GameObject character;
+    public GameObject num;
 
-     void OnTriggerEnter(Collider other)
+    void Start()
+    {
+        character = GameObject.FindGameObjectWithTag("Player");
+    }
+
+
+
+    public void OnTriggerEnter(Collider other)
      {
 
-        if(num.lapNum == 3)
+        if(num.GetComponent<LapSystem>().lapNum == 1)
         {
             CharWin();
         }
