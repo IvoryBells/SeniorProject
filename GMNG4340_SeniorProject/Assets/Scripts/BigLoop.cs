@@ -8,12 +8,14 @@ public class BigLoop : MonoBehaviour
     public GameObject particles;
     public GameObject waypoint;
     public GameObject player;
+    public GameObject playerCamera;
+    public GameObject loopCamera;
     
     // Start is called before the first frame update
     void Start()
     {
         waypoint = GameObject.FindGameObjectWithTag("Big Waypoint");
-
+        loopCamera = GameObject.FindGameObjectWithTag("Camera");
         skinRenders = GameObject.FindGameObjectsWithTag("Skin Render");
         /*for (int i = 0; i < gameObjects.Length; i++)
         {
@@ -23,6 +25,7 @@ public class BigLoop : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
 
         particles.SetActive(false);
+        loopCamera.SetActive(false);
         waypoint.GetComponent<Waypoints>().enabled = true;
         //meshRender.GetComponent<Rigidbody>().useGravity = true;
     }
@@ -37,6 +40,8 @@ public class BigLoop : MonoBehaviour
                 skinRenders[i].GetComponent<SkinnedMeshRenderer>().enabled = false;
             }
             particles.SetActive(true);
+            loopCamera.SetActive(true);
+            playerCamera.SetActive(false);
             //meshRender.GetComponent<SphereCollider>().enabled = false;
             player.GetComponent<RacecarController>().enabled = false;
             waypoint.GetComponent<Waypoints>().enabled = true;
@@ -49,6 +54,8 @@ public class BigLoop : MonoBehaviour
                 skinRenders[i].GetComponent<SkinnedMeshRenderer>().enabled = true;
             }
             particles.SetActive(false);
+            playerCamera.SetActive(true); 
+            loopCamera.SetActive(false);
             player.GetComponent<Rigidbody>().useGravity = true;
             //meshRender.GetComponent<SphereCollider>().enabled = true;
             player.GetComponent<RacecarController>().enabled = true;

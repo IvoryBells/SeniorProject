@@ -13,6 +13,7 @@ TagManager:
   - Shortcut
   - Shortcut Start
   - Shortcut End
+  - Camera
   layers:
   - Default
   - TransparentFX

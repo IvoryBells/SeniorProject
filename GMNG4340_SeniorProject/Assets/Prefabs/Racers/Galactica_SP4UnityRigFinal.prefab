@@ -41031,6 +41031,8 @@ MonoBehaviour:
   particles: {fileID: 5934952199230742617}
   waypoint: {fileID: 0}
   player: {fileID: 0}
+  playerCamera: {fileID: 2019044306585384441}
+  loopCamera: {fileID: 0}
 --- !u!114 &787240459578630125
 MonoBehaviour:
   m_ObjectHideFlags: 0

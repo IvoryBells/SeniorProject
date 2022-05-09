@@ -378,7 +378,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2.03
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &-7224860386916235115
 Rigidbody:
@@ -472,6 +472,8 @@ MonoBehaviour:
   particles: {fileID: 4786263530721566597}
   waypoint: {fileID: 0}
   player: {fileID: 0}
+  playerCamera: {fileID: 8015068049744469050}
+  loopCamera: {fileID: 0}
 --- !u!114 &850634014039276976
 MonoBehaviour:
   m_ObjectHideFlags: 0

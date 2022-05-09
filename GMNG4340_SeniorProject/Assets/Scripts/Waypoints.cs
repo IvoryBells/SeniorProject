@@ -10,6 +10,8 @@ public class Waypoints : MonoBehaviour
     public float wpRadius;
     public int wpCurrent = 0;
     public bool gravity = true;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class Waypoints : MonoBehaviour
             player.GetComponent<Rigidbody>().useGravity = false;
         }
 
+        //playerCamera.transform.position = Quaternion.Lerp(playerCamera.transform.rotation, sceneQuat, lerpTime);
         if (Vector3.Distance(waypoints[wpCurrent].transform.position, player.transform.position) < wpRadius)
         {
             wpCurrent++;
@@ -36,4 +39,6 @@ public class Waypoints : MonoBehaviour
         }
         player.transform.position = Vector3.MoveTowards(player.transform.position, waypoints[wpCurrent].transform.position, Time.deltaTime * loopSpeed);
     }
+
+    
 }
