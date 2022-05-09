@@ -18,7 +18,7 @@ public class WinTransition : MonoBehaviour
     public void OnTriggerEnter(Collider other)
      {
 
-        if(num.GetComponent<LapSystem>().lapNum == 1)
+        if(num.GetComponent<LapSystem>().lapNum == 2)
         {
             CharWin();
         }

@@ -29607,7 +29607,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 70637112fa81c6140ac107a266cb4d01, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8faf04969cbaa88479d46cf6153f9f5a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.526
   m_Pitch: 1
@@ -49285,6 +49285,8 @@ MonoBehaviour:
   particles: {fileID: 4526656012116387932}
   waypoint: {fileID: 0}
   player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  loopCamera: {fileID: 0}
 --- !u!4 &7414728293624707549
 Transform:
   m_ObjectHideFlags: 0
@@ -49987,12 +49989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4131398142592da469da4398915823ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skinRenders: []
-  particles: {fileID: 4526656012116387932}
-  shortcut: {fileID: 0}
-  player: {fileID: 0}
-  shortcutRotation: {x: 0, y: 0.33792493, z: 0, w: 0.9411731}
-  lerpTime: 10
 --- !u!1 &9149856123872831609
 GameObject:
   m_ObjectHideFlags: 0

@@ -28833,7 +28833,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 70637112fa81c6140ac107a266cb4d01, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8e81d64f319d3fd4b8baccad5bedcff9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.526
   m_Pitch: 1
@@ -45800,6 +45800,8 @@ MonoBehaviour:
   particles: {fileID: 5934952200436791487}
   waypoint: {fileID: 0}
   player: {fileID: 0}
+  playerCamera: {fileID: 0}
+  loopCamera: {fileID: 0}
 --- !u!4 &1886149071549432963
 Transform:
   m_ObjectHideFlags: 0

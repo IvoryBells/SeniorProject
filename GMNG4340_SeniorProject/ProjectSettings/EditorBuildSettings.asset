@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OfficialGameLevels/Cutscenes/Zeru_Cutscene.unity
     guid: 31a1b1a66ee1d054e8f2700178c8f73b
+  - enabled: 1
+    path: Assets/Scenes/OfficialGameLevels/Cutscenes/Ember_Cutscene.unity
+    guid: 45e9593560c73444498ec32c2c176581
   m_configObjects: {}
