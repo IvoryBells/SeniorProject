@@ -27,32 +27,33 @@ public class Animation : MonoBehaviour
         bool isDriftLeft = animate.GetBool(isDriftLeftHash);
         bool isDriftRight = animate.GetBool(isDriftRightHash);
         bool isDriveBackwards = animate.GetBool(isDrivingBackwardsHash);
-        bool driftPress = Input.GetKey("Shift");
-        bool leftPress = Input.GetKey("a");
-        bool rightPress = Input.GetKey("d");
-        bool backPress = Input.GetKey("s");
+        bool rightDriftPress = Input.GetKey(KeyCode.RightShift);
+        bool leftDriftPress = Input.GetKey(KeyCode.LeftShift);
+        bool leftPress = Input.GetKey(KeyCode.A);
+        bool rightPress = Input.GetKey(KeyCode.D);
+        bool backPress = Input.GetKey(KeyCode.S);
 
 
 
         // For Chararcters Drifting left
-        if(!isDriftLeft && (driftPress && leftPress))
+        if(!isDriftLeft && ((rightDriftPress || leftDriftPress) && leftPress))
         {
             animate.SetBool(isDriftLeftHash, true);
         }
 
-        if (isDriftLeft && !(driftPress && leftPress))
+        if (isDriftLeft && !((rightDriftPress || leftDriftPress) && leftPress))
         {
             animate.SetBool(isDriftLeftHash, false);
         }
 
         // For Characrters Drifting Right
 
-        if (!isDriftRight && (driftPress && rightPress))
+        if (!isDriftRight && ((rightDriftPress || leftDriftPress) && rightPress))
         {
             animate.SetBool(isDriftRightHash, true);
         }
 
-        if (isDriftRight && !(driftPress && rightPress))
+        if (isDriftRight && !((rightDriftPress || leftDriftPress) && rightPress))
         {
             animate.SetBool(isDriftRightHash, false);
         }

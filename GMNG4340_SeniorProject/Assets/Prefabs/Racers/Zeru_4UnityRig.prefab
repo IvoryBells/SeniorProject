@@ -318,6 +318,7 @@ GameObject:
   - component: {fileID: -5099392805847138246}
   - component: {fileID: 8226969914465528630}
   - component: {fileID: -1804227108726935110}
+  - component: {fileID: 850634014039276976}
   m_Layer: 0
   m_Name: Zeru_4UnityRig
   m_TagString: Player
@@ -470,6 +471,18 @@ MonoBehaviour:
   particles: {fileID: 4786263530721566597}
   waypoint: {fileID: 0}
   player: {fileID: 0}
+--- !u!114 &850634014039276976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877324485080520961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0565940cfc214674498c9b46fa8504ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &982718089093733590
 GameObject:
   m_ObjectHideFlags: 0

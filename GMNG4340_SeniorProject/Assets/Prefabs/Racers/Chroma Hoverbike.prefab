@@ -939,6 +939,7 @@ GameObject:
   - component: {fileID: -6204164904198896975}
   - component: {fileID: 6015849676341562224}
   - component: {fileID: 7940172060728035751}
+  - component: {fileID: 373003251542793372}
   m_Layer: 0
   m_Name: Chroma Hoverbike
   m_TagString: Player
@@ -1096,6 +1097,18 @@ MonoBehaviour:
   particles: {fileID: 8045768186764645461}
   waypoint: {fileID: 0}
   player: {fileID: 0}
+--- !u!114 &373003251542793372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4392515875865464667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0565940cfc214674498c9b46fa8504ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4480509218834751643
 GameObject:
   m_ObjectHideFlags: 0

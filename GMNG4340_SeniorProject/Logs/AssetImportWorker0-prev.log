@@ -15,11 +15,11 @@ D:/GitHub/SeniorProject/GMNG4340_SeniorProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65532
+51110
 Successfully changed project path to: D:/GitHub/SeniorProject/GMNG4340_SeniorProject
 D:/GitHub/SeniorProject/GMNG4340_SeniorProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 360.86 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 118.41 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path D:/Senior Project/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'D:/Senior Project/Editor/Data/Managed'
 Mono path[1] = 'D:/Senior Project/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Senior Project/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Senior Project/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002918 seconds.
+Registered in 0.002516 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 147.05 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 108.96 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
+- Completed reload, in  1.347 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1544ms)
-		BeginReloadAssembly (198ms)
+	ReloadAssembly (1347ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1161ms)
-			LoadAssemblies (198ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1027ms)
+			LoadAssemblies (183ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
+			SetupTypeCache (317ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (491ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (415ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (147ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012525 seconds.
+Registered in 0.028391 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 156.67 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 145.73 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.265 seconds
+- Completed reload, in  5.710 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5266ms)
-		BeginReloadAssembly (425ms)
+	ReloadAssembly (5711ms)
+		BeginReloadAssembly (395ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (4716ms)
-			LoadAssemblies (278ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (5079ms)
+			LoadAssemblies (404ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1177ms)
+			SetupTypeCache (1484ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (166ms)
-			SetupLoadedEditorAssemblies (2749ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (2815ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (157ms)
-				BeforeProcessingInitializeOnLoad (370ms)
-				ProcessInitializeOnLoadAttributes (2187ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (146ms)
+				BeforeProcessingInitializeOnLoad (361ms)
+				ProcessInitializeOnLoadAttributes (2276ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 136.9 MB.
-System memory in use after: 137.0 MB.
+System memory in use after: 137.1 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3261.
-Total: 7.097000 ms (FindLiveObjects: 0.365500 ms CreateObjectMapping: 0.599300 ms MarkObjects: 5.416100 ms  DeleteObjects: 0.714200 ms)
+Total: 5.271100 ms (FindLiveObjects: 0.326400 ms CreateObjectMapping: 0.110100 ms MarkObjects: 4.644800 ms  DeleteObjects: 0.187400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,54 +133,70 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
   artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62591c1131bbf83cde5a281f307f962b') in 3.070831 seconds 
-  Import took 3.093689 seconds .
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a8ae3c582614a97ac5cbcd29cc6848') in 0.542395 seconds 
+  Import took 0.561383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.492708 seconds.
+  path: Assets/Scenes/OfficialGameLevels/CharacterSelection.unity
+  artifactKey: Guid(457574e7b696b7c4997e58d77804c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OfficialGameLevels/CharacterSelection.unity using Guid(457574e7b696b7c4997e58d77804c345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dea17b6d4abc2151009a6b55dc2aa13') in 0.027252 seconds 
+  Import took 0.034951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.853407 seconds.
+  path: Assets/Animations/Chroma Hoverbike.controller
+  artifactKey: Guid(56cdc9009037a524287d18031fa92e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Chroma Hoverbike.controller using Guid(56cdc9009037a524287d18031fa92e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad75f192544b55f527f29a7c816ecc1') in 0.045337 seconds 
+  Import took 0.060175 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012982 seconds.
+Registered in 0.014162 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.62 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.223 seconds
+- Completed reload, in  3.076 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3224ms)
-		BeginReloadAssembly (446ms)
+	ReloadAssembly (3077ms)
+		BeginReloadAssembly (389ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (2618ms)
-			LoadAssemblies (452ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2568ms)
+			LoadAssemblies (303ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1100ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (964ms)
+			SetupTypeCache (603ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (1453ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (793ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (242ms)
+				ProcessInitializeOnLoadAttributes (1174ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.72 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 149.3 MB.
 System memory in use after: 149.5 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3272.
-Total: 6.519500 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.193400 ms MarkObjects: 5.846900 ms  DeleteObjects: 0.185000 ms)
+Total: 6.847200 ms (FindLiveObjects: 0.406600 ms CreateObjectMapping: 0.302000 ms MarkObjects: 6.000200 ms  DeleteObjects: 0.136800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -194,1361 +210,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 336.195460 seconds.
-  path: Assets/Prefabs/Cube Player.prefab
-  artifactKey: Guid(e3614a1aed58b364ea337fbd685a9b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cube Player.prefab using Guid(e3614a1aed58b364ea337fbd685a9b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da104fa9b22cc80365cca8dd65f93fc') in 0.193713 seconds 
-  Import took 0.205356 seconds .
+  Time since last request: 150.082979 seconds.
+  path: Assets/Animations/Racer Animations/Galactica/Galactica_SP4UnityRigFinal.controller
+  artifactKey: Guid(a131461bf7c819a44a150d41878b1232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Racer Animations/Galactica/Galactica_SP4UnityRigFinal.controller using Guid(a131461bf7c819a44a150d41878b1232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10027a79ac695173c8058d0a8832137a') in 0.088898 seconds 
+  Import took 0.095617 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013911 seconds.
+Registered in 0.012785 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.661 seconds
+- Completed reload, in  2.815 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2662ms)
-		BeginReloadAssembly (268ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (2290ms)
-			LoadAssemblies (251ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (753ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (93ms)
-			SetupLoadedEditorAssemblies (954ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (141ms)
-				ProcessInitializeOnLoadAttributes (782ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.21 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.3 MB.
-System memory in use after: 149.5 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3276.
-Total: 7.139500 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.145000 ms MarkObjects: 6.250200 ms  DeleteObjects: 0.420600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 48.108597 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f272b22e6874df5f905632c230ad02') in 0.287738 seconds 
-  Import took 0.313625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.344704 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ddfe7e2625a18d6a6b8d742297a307') in 0.170356 seconds 
-  Import took 0.194949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.710544 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6f55c1f728b73959c81dbd9ad80dc8') in 0.141440 seconds 
-  Import took 0.156419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.473894 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf735bf12f70159c5f453cd79a3c6b6') in 0.269756 seconds 
-  Import took 0.315738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.317462 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9743a8d9a3984317ba2e48c4112a8e8') in 0.111967 seconds 
-  Import took 0.133591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.797614 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff538a6f7a63f27dd2439280f1041571') in 0.163185 seconds 
-  Import took 0.177135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.811476 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c5ab249856d76365d49cf3dd3919f3') in 0.134943 seconds 
-  Import took 0.167112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.725655 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf79350a31f542800c71357556529160') in 0.146725 seconds 
-  Import took 0.167180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.540726 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08598c8369f8bdc47aebcb38796010e0') in 0.151618 seconds 
-  Import took 0.164775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.723857 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a518e0275a1e1cd6d478aba17f73c01b') in 0.155761 seconds 
-  Import took 0.181793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.818983 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204601ecbc4569f79d9ab13a4d818149') in 0.192500 seconds 
-  Import took 0.225327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.671585 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0745ddd3d92604c1dcb18743630ba5') in 0.265150 seconds 
-  Import took 0.281848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.377741 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2afcb5716dfd334740d83e205569cd2') in 0.189479 seconds 
-  Import took 0.208088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.363344 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b367e26788a5525f9dc83e22f717b') in 0.224758 seconds 
-  Import took 0.238597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.895033 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eb9c9a417d6f6523e6a944b152e9ca') in 0.196627 seconds 
-  Import took 0.237536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.784737 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97863205b0ef38d88d007923c29f1b1') in 0.185238 seconds 
-  Import took 0.220559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.369079 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f881b72b2dbfcc0b2b76e669ea964fd') in 0.145318 seconds 
-  Import took 0.169936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.983866 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e711bd4fee252439f7f46fd4f8e58ae') in 0.195503 seconds 
-  Import took 0.217414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.772125 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bd396ec6fdcd7ab401626b312d8702') in 0.156218 seconds 
-  Import took 0.180248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.962337 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2341567cadae24175709fd73d916aa12') in 0.200111 seconds 
-  Import took 0.226522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.794471 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6938351acdafd247cb92e3140db0d6') in 0.334577 seconds 
-  Import took 0.365786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.684584 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2833e37689303a9ddd0412a0af4143b') in 0.166814 seconds 
-  Import took 0.184970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.069174 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e584bbba0b893af33d40ea79d788a10') in 0.253949 seconds 
-  Import took 0.274931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.743434 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdda9612172fb5c2b3688b6857c4686b') in 0.244541 seconds 
-  Import took 0.278317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.535294 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804d76b94e7b02f7c7cdaf4d91e47449') in 0.176668 seconds 
-  Import took 0.195990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.675505 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fab6c89d6a241fb39bc6ae1fbad69d') in 0.170272 seconds 
-  Import took 0.239808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.438639 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f084f5710e4691120dddf2599bd0339') in 0.148701 seconds 
-  Import took 0.165612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.819305 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd3c39c11e3f5660d9957c3f9d54b2b') in 0.188238 seconds 
-  Import took 0.213806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.426543 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2f0eddcdf251a36d7f2d8e2049a236') in 0.171124 seconds 
-  Import took 0.208119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.006980 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee49acd4898a2632114638d439171953') in 0.169396 seconds 
-  Import took 0.192692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.034240 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5751ea3627898c7e51982550d9abac3') in 0.182969 seconds 
-  Import took 0.203004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.628567 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c311d6d5c903f489047e8d633cb2c8c2') in 0.169732 seconds 
-  Import took 0.185381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.399792 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217f9d41523008faea02bbf20add6390') in 0.195860 seconds 
-  Import took 0.243981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.394967 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2155ddbce2e7ddaef46ffd8258503d') in 0.174751 seconds 
-  Import took 0.200236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.035106 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84c61a25f47dde1ead2ad1ec5bcca74') in 0.168691 seconds 
-  Import took 0.208110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.614005 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1225e4d63901163c6b537a96350f0488') in 0.196019 seconds 
-  Import took 0.220787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.994392 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98939783682a8244e0b5306ec9520bd1') in 0.169383 seconds 
-  Import took 0.191125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.158676 seconds.
-  path: Assets/52SpecialEffectPack/Effect/Effect(Shuriken)/ElementalBall.prefab
-  artifactKey: Guid(9826389809c2e1e41a1125953a56a236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/52SpecialEffectPack/Effect/Effect(Shuriken)/ElementalBall.prefab using Guid(9826389809c2e1e41a1125953a56a236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ace71420f82fe67a558972ee3c1e53') in 0.095487 seconds 
-  Import took 0.116629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.305444 seconds.
-  path: Assets/52SpecialEffectPack/Effect/Effect(Shuriken)/DeadBall.prefab
-  artifactKey: Guid(537a18d45863c794c97e81b7bc643e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/52SpecialEffectPack/Effect/Effect(Shuriken)/DeadBall.prefab using Guid(537a18d45863c794c97e81b7bc643e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282154908b9736f3fc043d01bb0b0093') in 0.136803 seconds 
-  Import took 0.181058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.713130 seconds.
-  path: Assets/52SpecialEffectPack/Texture/Smoke3.mat
-  artifactKey: Guid(e5cf9e7358a8c2048b0ff260e9813b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/52SpecialEffectPack/Texture/Smoke3.mat using Guid(e5cf9e7358a8c2048b0ff260e9813b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f53a557f3ab04f3c27c2d6e47bcd953') in 0.169040 seconds 
-  Import took 0.179858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.558401 seconds.
-  path: Assets/52SpecialEffectPack/Texture/Smoke2.mat
-  artifactKey: Guid(adaae5bb3c477e044b84ec1349b1b83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/52SpecialEffectPack/Texture/Smoke2.mat using Guid(adaae5bb3c477e044b84ec1349b1b83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6a8d5a5f5a14261160bea2828454f1') in 0.053128 seconds 
-  Import took 0.089380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.043970 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56913c428ddd4278e1646afd7ee1cd7') in 0.118780 seconds 
-  Import took 0.131570 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014360 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.280 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3281ms)
-		BeginReloadAssembly (363ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (106ms)
-		EndReloadAssembly (2806ms)
-			LoadAssemblies (317ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (815ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (1349ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (190ms)
-				ProcessInitializeOnLoadAttributes (1118ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.0 MB.
-System memory in use after: 150.2 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3312.
-Total: 11.144600 ms (FindLiveObjects: 0.303200 ms CreateObjectMapping: 0.091800 ms MarkObjects: 10.522700 ms  DeleteObjects: 0.225500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 10.360066 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5e29ef76d6b608979ab369798aa766') in 0.369978 seconds 
-  Import took 0.388910 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011701 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.771 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2773ms)
-		BeginReloadAssembly (472ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (2177ms)
-			LoadAssemblies (465ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (672ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (999ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (791ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.95 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.1 MB.
-System memory in use after: 150.2 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3315.
-Total: 7.951000 ms (FindLiveObjects: 0.305100 ms CreateObjectMapping: 2.477900 ms MarkObjects: 4.992000 ms  DeleteObjects: 0.174000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 20.463960 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7170865f6ff3913ebe02494765254c4') in 0.300698 seconds 
-  Import took 0.313055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.203760 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48a2bdeefbc058b066f54fb9ab3ea02') in 0.135175 seconds 
-  Import took 0.154970 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.445409 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 19.59 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 36.888 seconds
-Domain Reload Profiling:
-	ReloadAssembly (36899ms)
-		BeginReloadAssembly (2987ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (96ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (855ms)
-		EndReloadAssembly (31972ms)
-			LoadAssemblies (3247ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (11639ms)
-			ReleaseScriptCaches (16ms)
-			RebuildScriptCaches (1576ms)
-			SetupLoadedEditorAssemblies (13014ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (110ms)
-				SetLoadedEditorAssemblies (18ms)
-				RefreshPlugins (20ms)
-				BeforeProcessingInitializeOnLoad (1879ms)
-				ProcessInitializeOnLoadAttributes (10689ms)
-				ProcessInitializeOnLoadMethodAttributes (192ms)
-				AfterProcessingInitializeOnLoad (101ms)
-				EditorAssembliesLoaded (4ms)
-			ExecutionOrderSort2 (2ms)
-			AwakeInstancesAfterBackupRestoration (184ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.00 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.1 MB.
-System memory in use after: 150.3 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3318.
-Total: 8.521600 ms (FindLiveObjects: 0.946400 ms CreateObjectMapping: 2.032600 ms MarkObjects: 5.281200 ms  DeleteObjects: 0.259200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 117.167396 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bbc55ed5416f856f7ccf5b95f394e6') in 0.316308 seconds 
-  Import took 0.331934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.215668 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a766eb151c8c934e0cbf7ab43196e73c') in 0.119977 seconds 
-  Import took 0.148544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.491018 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79650e31232ad88a6a19c357d6f246d') in 0.146966 seconds 
-  Import took 0.159721 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010974 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 5.14 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.087 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3088ms)
-		BeginReloadAssembly (326ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (2622ms)
-			LoadAssemblies (305ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (728ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (128ms)
-			SetupLoadedEditorAssemblies (1273ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (23ms)
-				RefreshPlugins (5ms)
-				BeforeProcessingInitializeOnLoad (246ms)
-				ProcessInitializeOnLoadAttributes (956ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.1 MB.
-System memory in use after: 150.3 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3321.
-Total: 7.713800 ms (FindLiveObjects: 2.089100 ms CreateObjectMapping: 0.255600 ms MarkObjects: 5.188700 ms  DeleteObjects: 0.178600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 38.318854 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c620b0ad0bcffcd5c49fb38575bf41') in 0.408785 seconds 
-  Import took 0.433099 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012041 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.707 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2708ms)
+	ReloadAssembly (2817ms)
 		BeginReloadAssembly (286ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (2098ms)
-			LoadAssemblies (270ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (612ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (977ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (787ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.3 MB.
-System memory in use after: 150.5 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3324.
-Total: 7.198500 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.100400 ms MarkObjects: 6.485800 ms  DeleteObjects: 0.322400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 102.341352 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdb9d88ffb1baf63eabbf7206ece2fe') in 0.240156 seconds 
-  Import took 0.252090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.778931 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b35ff82b0a49143e9054746b1435e1') in 0.148986 seconds 
-  Import took 0.169826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.989693 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3af177954c71a2fb2cb702b9f13e2cb') in 0.255860 seconds 
-  Import took 0.277782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.306538 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1993690c4dbe9a98bf741b9745ab19') in 0.166728 seconds 
-  Import took 0.182771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.071845 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2aff01c3808496ccf8ecff202abdb8') in 0.167706 seconds 
-  Import took 0.185557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.795549 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cabc74f91bec51c749fdc6322af277') in 0.211652 seconds 
-  Import took 0.249399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.821132 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d01529ad61cc13d21a7c1287ff7e407') in 0.182088 seconds 
-  Import took 0.205726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.007962 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b770b239f6eba8cc2ecc8fa4a20b4f') in 0.203034 seconds 
-  Import took 0.222408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.239375 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8e40b9f3cf8790fb79541ed3fe579d') in 0.223742 seconds 
-  Import took 0.268657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.222950 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5293f402102e8404d28b522f9a864a') in 0.186994 seconds 
-  Import took 0.206083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.977938 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a3e3c5c73fb79a9a413025824d523c') in 0.159822 seconds 
-  Import took 0.180171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.222708 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01992cb8be952dbc9c5773183cfddd7c') in 0.187351 seconds 
-  Import took 0.215454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.831527 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ee86b82c7ac334e01db3aa4fed70eb') in 0.151859 seconds 
-  Import took 0.170557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.386888 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd25d542529ccc69828258a6c7a92a6') in 0.205248 seconds 
-  Import took 0.236147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.616253 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380affd3a55df9ce33bbd5dc4f030552') in 0.174674 seconds 
-  Import took 0.204381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.710214 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f846e7ceafb7850c093f2cbc1e98199c') in 0.238502 seconds 
-  Import took 0.272281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.157972 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533754026d0aa75659b9199b42401a67') in 0.165642 seconds 
-  Import took 0.185502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.571452 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f82ea6c94ff746aadb972c54d69f4ad') in 0.182066 seconds 
-  Import took 0.197927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.414052 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655eb6e50a03d0702ce0e3f67a9a8a76') in 0.153484 seconds 
-  Import took 0.188824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.233533 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b2310966305821057ada50b6e3c9d3') in 0.174643 seconds 
-  Import took 0.190487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.251236 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6495382bf32e44ff12b3ae7d30cb7b5b') in 0.141735 seconds 
-  Import took 0.165669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.433333 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abff20a82a45a9f1fb05ca39cb3720a') in 0.164226 seconds 
-  Import took 0.179283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.520200 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bb7da4bf9d4cf659ece7e7b89708c7') in 0.134594 seconds 
-  Import took 0.159397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.166428 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444bc4c5cc35727b848b6a5cbff78f7f') in 0.233868 seconds 
-  Import took 0.252257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.212562 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f80729d09c37243207000b7fd4b3b5') in 0.160003 seconds 
-  Import took 0.177732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.182525 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f3b2608b8a3b546bfc4261d46ce37d') in 0.185079 seconds 
-  Import took 0.209613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.044505 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dc8a92de22ccb09dc42178f16e2f28') in 0.081034 seconds 
-  Import took 0.109378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.700415 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8dd4f0ee2335755c32fbfc2f431101') in 0.162343 seconds 
-  Import took 0.177988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.993935 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb4eba91779e07ea016aebf7b45ab50') in 0.163563 seconds 
-  Import took 0.207729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.175226 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d689e8c3686d1f65b4673e937e7cb7') in 0.262059 seconds 
-  Import took 0.283209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.531777 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a744d8a1bd423ab4c935ad26af30bf') in 0.224228 seconds 
-  Import took 0.255837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.720813 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc9f3ee945b6a0a7bade9f9888c6d3e') in 0.170983 seconds 
-  Import took 0.189542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.306821 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57ed7860fb55e50a539e61cc802be1b') in 0.183484 seconds 
-  Import took 0.206262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.878333 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1010c1339b4a324f07142289bb486f9f') in 0.179582 seconds 
-  Import took 0.224153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.156973 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd45e7e31c4c3b4928ddbd63a1bf1f1') in 0.184400 seconds 
-  Import took 0.217892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.107066 seconds.
-  path: Assets/52SpecialEffectPack/Texture/Ring5.mat
-  artifactKey: Guid(c061c555d0180d54d8d4a51514f0d2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/52SpecialEffectPack/Texture/Ring5.mat using Guid(c061c555d0180d54d8d4a51514f0d2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddf85cef4052e2d7dd17f50749dd97e') in 0.231984 seconds 
-  Import took 0.308842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000615 seconds.
-  path: Assets/52SpecialEffectPack/Texture/Ring5.mat
-  artifactKey: Guid(c061c555d0180d54d8d4a51514f0d2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/52SpecialEffectPack/Texture/Ring5.mat using Guid(c061c555d0180d54d8d4a51514f0d2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddf85cef4052e2d7dd17f50749dd97e') in 0.104010 seconds 
-  Import took 0.132209 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010064 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.090 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4092ms)
-		BeginReloadAssembly (390ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (3561ms)
-			LoadAssemblies (332ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1049ms)
-			ReleaseScriptCaches (9ms)
-			RebuildScriptCaches (146ms)
-			SetupLoadedEditorAssemblies (1804ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (243ms)
-				ProcessInitializeOnLoadAttributes (1506ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.4 MB.
-System memory in use after: 150.6 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3327.
-Total: 5.672900 ms (FindLiveObjects: 0.453900 ms CreateObjectMapping: 0.152600 ms MarkObjects: 4.874900 ms  DeleteObjects: 0.189500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009993 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.47 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.961 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2963ms)
-		BeginReloadAssembly (516ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (197ms)
-		EndReloadAssembly (2326ms)
-			LoadAssemblies (283ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (644ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (1075ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (177ms)
-				ProcessInitializeOnLoadAttributes (860ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.4 MB.
-System memory in use after: 150.6 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3329.
-Total: 6.532200 ms (FindLiveObjects: 0.797000 ms CreateObjectMapping: 0.351100 ms MarkObjects: 5.227600 ms  DeleteObjects: 0.154900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 71.370926 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbadca48f05829e2dbd66075092407d') in 0.308719 seconds 
-  Import took 0.320943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.536096 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a89bbc62aa456925e165daedcb178c') in 0.144140 seconds 
-  Import took 0.172279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.063755 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8ba34b0b4ce474ae205501d0906c2e') in 0.158183 seconds 
-  Import took 0.171015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.087741 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51cb137b50e469edcad20ede31cff23') in 0.132975 seconds 
-  Import took 0.156570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.482157 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38f4e413fe7706a61aa0752ad243481') in 0.131311 seconds 
-  Import took 0.146718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.072696 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adf0ef87cdabf4f425cd1f9222bff7b') in 0.120396 seconds 
-  Import took 0.147552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.865791 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c34861f03dae1e8cec7c0ed35fd3d1') in 0.339488 seconds 
-  Import took 0.353136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.046256 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f55e26409a57d2ac6ce3fbea801594a') in 0.214389 seconds 
-  Import took 0.233434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.946226 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb57ecb8b9e243492be748b9783b72e') in 0.165465 seconds 
-  Import took 0.185563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.662843 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f956ed29fa61d716b921bd7395a134') in 0.196557 seconds 
-  Import took 0.224383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.629317 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda55ead3e6b3b6adc0c45daa501704d') in 0.215886 seconds 
-  Import took 0.237783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.802394 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8eb39c18b01a7a3e549352ac9896ea4') in 0.212597 seconds 
-  Import took 0.232895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.391348 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3ded185bf1e8f1b87a81ff7e88cbee') in 0.191195 seconds 
-  Import took 0.208963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.424127 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c621487fcc086acfe9a6b0853337e8fb') in 0.245683 seconds 
-  Import took 0.274319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.585196 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6aa219527a60255d3d46a0b16f6fa8') in 0.173122 seconds 
-  Import took 0.212950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.495825 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da439effb83cc2330f90adec07c96db6') in 0.221727 seconds 
-  Import took 0.251859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.406084 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2751c86a8b6c78eabb532e5dd1121b5') in 0.167604 seconds 
-  Import took 0.189510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.888323 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad62cb5fd75302b9a24c10e00bb63d65') in 0.168543 seconds 
-  Import took 0.207261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.854586 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384921361f8ec065f20b49b0be0d4432') in 0.204451 seconds 
-  Import took 0.226753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.569443 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fada263946515d7827e2d25b8dd1ba') in 0.176900 seconds 
-  Import took 0.195328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.601614 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a88ed89b17ef710f526773e1af0745a') in 0.167784 seconds 
-  Import took 0.233793 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014452 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.90 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.607 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5609ms)
-		BeginReloadAssembly (324ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (5146ms)
-			LoadAssemblies (314ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (2387ms)
+			LoadAssemblies (267ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (864ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (131ms)
-			SetupLoadedEditorAssemblies (3461ms)
+			SetupTypeCache (812ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1035ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (190ms)
-				ProcessInitializeOnLoadAttributes (3164ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (1ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (845ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (80ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.8 MB.
-System memory in use after: 151.0 MB.
+System memory in use before: 149.4 MB.
+System memory in use after: 149.5 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3332.
-Total: 6.558800 ms (FindLiveObjects: 0.533600 ms CreateObjectMapping: 0.257200 ms MarkObjects: 5.613500 ms  DeleteObjects: 0.152300 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3274.
+Total: 12.917100 ms (FindLiveObjects: 0.581000 ms CreateObjectMapping: 0.214900 ms MarkObjects: 11.842300 ms  DeleteObjects: 0.276400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1561,82 +273,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 80.827409 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa878ca0b7fb34128f15b48094fc6c3') in 0.316777 seconds 
-  Import took 0.328760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.374916 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382ef872ca3aa1e5551fc657c2ffeaed') in 0.399531 seconds 
-  Import took 0.433064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.449473 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c87541ee0a96351f5678c505f82820f') in 0.147310 seconds 
-  Import took 0.163697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.360810 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275a42d090c836d7b7d96e0346e2816d') in 0.280537 seconds 
-  Import took 0.437512 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013140 seconds.
+Registered in 0.009489 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.835 seconds
+- Completed reload, in  2.368 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3836ms)
-		BeginReloadAssembly (297ms)
+	ReloadAssembly (2368ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (3418ms)
-			LoadAssemblies (298ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (2032ms)
+			LoadAssemblies (219ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (654ms)
+			SetupTypeCache (624ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (2169ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (887ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (705ms)
-				ProcessInitializeOnLoadAttributes (1431ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (727ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 11.73 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.9 MB.
-System memory in use after: 151.0 MB.
+System memory in use before: 149.4 MB.
+System memory in use after: 149.6 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3335.
-Total: 23.355500 ms (FindLiveObjects: 0.434600 ms CreateObjectMapping: 0.193500 ms MarkObjects: 22.523400 ms  DeleteObjects: 0.202600 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3276.
+Total: 12.033200 ms (FindLiveObjects: 0.541700 ms CreateObjectMapping: 2.575100 ms MarkObjects: 8.559100 ms  DeleteObjects: 0.352400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1650,81 +330,193 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 267.830530 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea611c43f1bbfca17e38af4209d1529e') in 0.545595 seconds 
-  Import took 0.576782 seconds .
+  Time since last request: 249.324486 seconds.
+  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
+  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bd9998615d433653fefdfd2370d6ca') in 0.404201 seconds 
+  Import took 0.424455 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.054526 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2f676a55229b29ba126eea5b56ece2') in 0.149805 seconds 
-  Import took 0.169030 seconds .
+  Time since last request: 1.717278 seconds.
+  path: Assets/Prefabs/Racers/KageRacerRig.prefab
+  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f156c4902fa359dad746b12bd377352d') in 0.182974 seconds 
+  Import took 0.199830 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.861223 seconds.
+  Time since last request: 5.679746 seconds.
   path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
   artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6163ef4749662e88e69b92d87269519e') in 0.135563 seconds 
-  Import took 0.171149 seconds .
+Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69950b055f41811da8a55d7e095dadf1') in 0.179096 seconds 
+  Import took 0.194908 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.827558 seconds.
-  path: Assets/Prefabs/Racers/Zeru_4UnityRig.prefab
-  artifactKey: Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Zeru_4UnityRig.prefab using Guid(af673a1da24c90f42bf0f8f47698cfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8242ae44872e7c816d56d0ce33b249') in 0.140917 seconds 
-  Import took 0.155445 seconds .
+  Time since last request: 98.004138 seconds.
+  path: Assets/Animations/Racer Animations/Kage/KageRacerRig.controller
+  artifactKey: Guid(749769a2b39c55a459fbcc7515d84d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Racer Animations/Kage/KageRacerRig.controller using Guid(749769a2b39c55a459fbcc7515d84d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434d637df5d00f2a513d41aa75788ac7') in 0.053382 seconds 
+  Import took 0.075242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.595642 seconds.
+  path: Assets/Animations/Racer Animations/Kage/Hoverboard Right.anim
+  artifactKey: Guid(79069438578a31e478f2163bf1a22ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Racer Animations/Kage/Hoverboard Right.anim using Guid(79069438578a31e478f2163bf1a22ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0f6b34219bae6e514e52ce813c4a5c') in 0.016275 seconds 
+  Import took 0.024588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.638683 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(b2ad556472d71ef4290f0c0cac9b47a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(b2ad556472d71ef4290f0c0cac9b47a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3212d57a5259a8a2ac62ce75620aae83') in 0.019079 seconds 
+  Import took 0.028704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.820310 seconds.
+  path: Assets/Animations/Racer Animations
+  artifactKey: Guid(cb1d14c0fa3aee04f896153a1f7e539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Racer Animations using Guid(cb1d14c0fa3aee04f896153a1f7e539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f83bb29af4f4b484dc2ff171e82ba2') in 0.021573 seconds 
+  Import took 0.036992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.337461 seconds.
+  path: Assets/Animations/Racer Animations/Kage
+  artifactKey: Guid(ffc7546927a53b34cb502f037a2b94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Racer Animations/Kage using Guid(ffc7546927a53b34cb502f037a2b94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8695a997083c7f0fe4a2c7784b9417') in 0.019325 seconds 
+  Import took 0.026000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.171672 seconds.
+  path: Assets/Animations/Racer Animations/Kage/Hoverboard Left.anim
+  artifactKey: Guid(2288e9b6264691348aed48fc6eab3311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Racer Animations/Kage/Hoverboard Left.anim using Guid(2288e9b6264691348aed48fc6eab3311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb15b9d2353c4d52b807f7d8a5a272b') in 0.034384 seconds 
+  Import took 0.045211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.274641 seconds.
+  path: Assets/Animations/Racer Animations/Kage/Hoverboard Forward.anim
+  artifactKey: Guid(a5b4f14e3878185478cc964ebf596491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Racer Animations/Kage/Hoverboard Forward.anim using Guid(a5b4f14e3878185478cc964ebf596491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b7c72005afc548c95d743271d0be19') in 0.035118 seconds 
+  Import took 0.041161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887301 seconds.
+  path: Assets/Animations/Racer Animations/Kage/Hoverboard Backward.anim
+  artifactKey: Guid(2438a98fded2a744d916e59dcddcd09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Racer Animations/Kage/Hoverboard Backward.anim using Guid(2438a98fded2a744d916e59dcddcd09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd448cec75cb9098701eb65b95facd88f') in 0.023919 seconds 
+  Import took 0.037476 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.020232 seconds.
+Registered in 0.010355 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.741 seconds
+- Completed reload, in  2.233 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2743ms)
-		BeginReloadAssembly (272ms)
+	ReloadAssembly (2233ms)
+		BeginReloadAssembly (257ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (2255ms)
-			LoadAssemblies (276ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1873ms)
+			LoadAssemblies (271ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (677ms)
+			SetupTypeCache (609ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (1031ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (790ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (636ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.6 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3279.
+Total: 7.829900 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.078600 ms MarkObjects: 7.291800 ms  DeleteObjects: 0.165700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5750ms)
+		BeginReloadAssembly (962ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (230ms)
+		EndReloadAssembly (4422ms)
+			LoadAssemblies (909ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2473ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (149ms)
+			SetupLoadedEditorAssemblies (1004ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (852ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.11 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.9 MB.
-System memory in use after: 151.0 MB.
+System memory in use before: 149.6 MB.
+System memory in use after: 149.8 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3338.
-Total: 35.435800 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.227200 ms MarkObjects: 34.534600 ms  DeleteObjects: 0.176000 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3281.
+Total: 6.947200 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.170400 ms MarkObjects: 6.325600 ms  DeleteObjects: 0.141100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1738,65 +530,721 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 158.723136 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c089d2bff18c2033381de9289a4b59df') in 0.401461 seconds 
-  Import took 0.426384 seconds .
+  Time since last request: 275.539364 seconds.
+  path: Assets/Animations/Hoverbike Backward.anim
+  artifactKey: Guid(affaa796431f57548acc01424732e5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Hoverbike Backward.anim using Guid(affaa796431f57548acc01424732e5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3290040dff4dae258859cc0c8ede367') in 0.055843 seconds 
+  Import took 0.063228 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.802942 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8f00b301b19f0b4fa58daa2f0e2d72') in 0.169589 seconds 
-  Import took 0.192613 seconds .
+  Time since last request: 0.597557 seconds.
+  path: Assets/Animations/Hoverbike Forward.anim
+  artifactKey: Guid(ecb55d75a7a6a084b8b52e562ff4e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Hoverbike Forward.anim using Guid(ecb55d75a7a6a084b8b52e562ff4e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d427b050ed4b1455a2463dcd91b431') in 0.049771 seconds 
+  Import took 0.068097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.499579 seconds.
+  path: Assets/Animations/Hoverbike Left.anim
+  artifactKey: Guid(d2f7a2d7f8734c2418ca3b9561425eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Hoverbike Left.anim using Guid(d2f7a2d7f8734c2418ca3b9561425eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd32bf816b1bd0d4c7af9862f9b35cb') in 0.056080 seconds 
+  Import took 0.099718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.141017 seconds.
+  path: Assets/Animations/Hoverbike Righty.anim
+  artifactKey: Guid(d391e568122f45e4baf6cdbd8ab68400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Hoverbike Righty.anim using Guid(d391e568122f45e4baf6cdbd8ab68400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e886f9bab50e9575ba5e89b65a7db3') in 0.034503 seconds 
+  Import took 0.042562 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.019994 seconds.
+Registered in 0.010371 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.804 seconds
+- Completed reload, in  2.305 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2805ms)
-		BeginReloadAssembly (260ms)
+	ReloadAssembly (2305ms)
+		BeginReloadAssembly (238ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2434ms)
-			LoadAssemblies (256ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (767ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1966ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (691ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (95ms)
-			SetupLoadedEditorAssemblies (1096ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (832ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.6 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3283.
+Total: 6.442200 ms (FindLiveObjects: 0.359000 ms CreateObjectMapping: 0.196000 ms MarkObjects: 5.727200 ms  DeleteObjects: 0.158400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 200.820072 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2949d4a32cd3911977ef3bb7ed00afff') in 0.415880 seconds 
+  Import took 0.433910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.585668 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea4ad1a17170c6facdb7a59e01b229b') in 0.557207 seconds 
+  Import took 0.590384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.074372 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fefa22f665bd3a830069f1211cab9f') in 0.227727 seconds 
+  Import took 0.249776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.783419 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9093df72853504e0f692175e154db49d') in 0.310456 seconds 
+  Import took 0.330616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.813359 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d7c4934a89a888c270cf3c2cc73508') in 0.243645 seconds 
+  Import took 0.264936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.034625 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d8660962815d0c12d1028017641404') in 0.228994 seconds 
+  Import took 0.249902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.937180 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a188f700890dabd065596b95f793c078') in 0.255808 seconds 
+  Import took 0.273461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.004244 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1285f6864d7f8f13db358762ff186b3f') in 0.257639 seconds 
+  Import took 0.273106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.054227 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b8fdfb9a13688041205e7d43e160c3') in 0.283879 seconds 
+  Import took 0.314054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.124337 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b7d663e51f1de1768e6d0920f96fff') in 0.306115 seconds 
+  Import took 0.333467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.811974 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197d2cd2fd555b3c610718ac9fbdb0e2') in 0.251944 seconds 
+  Import took 0.294744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.883375 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aff1531b8c2ec18c5cca96cbe6ebbf') in 0.343947 seconds 
+  Import took 0.370516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.673552 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9338652522a105c0515c80326c5f30b') in 0.242542 seconds 
+  Import took 0.261501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.071198 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad39996c9ef75e87beb3faad17f00e7') in 0.235136 seconds 
+  Import took 0.274711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.983465 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd987f459949cccf15bf2dad59f7c65f') in 0.213507 seconds 
+  Import took 0.235774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.880190 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832def555941de3a148edc356c917a5c') in 0.316349 seconds 
+  Import took 0.354177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.417682 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d49925190e0b33884ba29dfed7af013') in 0.250302 seconds 
+  Import took 0.269107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.438717 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676e63465739277b04347a0b5f36ce20') in 0.212027 seconds 
+  Import took 0.231592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.684914 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbbe846cf3d1052b05d37ee87f84a1f') in 0.220977 seconds 
+  Import took 0.241086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.764635 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba526f8f7b253bc9b0c9727231fa10c') in 0.222163 seconds 
+  Import took 0.243491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.331910 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5468fab12520d47c9019c974964e933') in 0.259035 seconds 
+  Import took 0.285947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.513705 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2d512f6fe41eeb27749490cff55e91') in 0.306322 seconds 
+  Import took 0.330390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.233200 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fe4282d7f40a81a5e4d01a040d56ac') in 0.337365 seconds 
+  Import took 0.364617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.302224 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844a7be6dc8ce4f25c8bf37040fec363') in 0.296552 seconds 
+  Import took 0.321425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.571997 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1753bda44633a00c2d809c3cd85a507') in 0.286017 seconds 
+  Import took 0.321431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.898802 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1224f1830f857031c6c128e6476247c1') in 0.394527 seconds 
+  Import took 0.426567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.491753 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b06903d76d6ba7bd4547a7d6dc0f22') in 0.279618 seconds 
+  Import took 0.300640 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.642 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3642ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (3212ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (697ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1596ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (250ms)
+				ProcessInitializeOnLoadAttributes (1284ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3286.
+Total: 7.103200 ms (FindLiveObjects: 0.289000 ms CreateObjectMapping: 0.077600 ms MarkObjects: 6.592400 ms  DeleteObjects: 0.142600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76.635067 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20ff496793c4a0edd3341a3d4bbbfb4') in 0.406063 seconds 
+  Import took 0.425403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.712264 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f559b031b28a0013c2ce3e1a9ad0487') in 0.299060 seconds 
+  Import took 0.329930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.423189 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfdef010e91785d30814d00fcbd3ce1') in 0.354350 seconds 
+  Import took 0.397410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.737900 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db37dbc122f7b92d279e84741cf2cee') in 0.322873 seconds 
+  Import took 0.349898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.420734 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509884c6480cebd5ed3fdc191eb51673') in 0.351528 seconds 
+  Import took 0.376773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.274104 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6327c2759ec22692212798f2643743c7') in 0.332004 seconds 
+  Import took 0.357111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.001718 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf013fad95637f34a91ae5d010e4a973') in 0.286913 seconds 
+  Import took 0.316960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.723149 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd97acacdbfda8eb7f555d62a4858634') in 0.320248 seconds 
+  Import took 0.370178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.682263 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e8502c304ea5ab96547320b3e91fe5') in 0.471875 seconds 
+  Import took 0.505811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.515761 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2010e3fbe64e98809047763044fac1') in 0.281458 seconds 
+  Import took 0.297316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.687895 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8de508c1e9f3d893d0b7f3b29fa51cb') in 0.382950 seconds 
+  Import took 0.410187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.853184 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54d8f8f34357b552e9507c671c54ba8') in 0.352353 seconds 
+  Import took 0.389486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.479405 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e579a252b163ca64591062c5e1e2341') in 0.296294 seconds 
+  Import took 0.338959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.474195 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafcdeccb4a751d2fc3229152db1435c') in 0.313481 seconds 
+  Import took 0.346025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.776016 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654564ac0f0917890478b8a45b3f1578') in 0.369111 seconds 
+  Import took 0.422341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.367123 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d9deaf48d1b791cde93cd1ddfe6db2') in 0.292866 seconds 
+  Import took 0.327663 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.792 seconds
+Domain Reload Profiling:
+	ReloadAssembly (10793ms)
+		BeginReloadAssembly (1942ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (177ms)
+		EndReloadAssembly (8201ms)
+			LoadAssemblies (2088ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2517ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (323ms)
+			SetupLoadedEditorAssemblies (3895ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (683ms)
+				ProcessInitializeOnLoadAttributes (3098ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (5ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (56ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.81 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 12.841700 ms (FindLiveObjects: 0.384400 ms CreateObjectMapping: 0.335700 ms MarkObjects: 11.899100 ms  DeleteObjects: 0.221100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.689327 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492b2c980f51df5c5993c0f05bf57708') in 0.424387 seconds 
+  Import took 0.462237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.846630 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083940ab5a76c4c127f657e183341a2f') in 0.302371 seconds 
+  Import took 0.335424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.107385 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c46fdef518d06d5d1ed69246d7f4f33') in 0.320166 seconds 
+  Import took 0.343139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.168097 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2d632bffe6fce8a092a07f5dc7b66c') in 0.358210 seconds 
+  Import took 0.399340 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3196ms)
+		BeginReloadAssembly (347ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2704ms)
+			LoadAssemblies (290ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (755ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (1331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (167ms)
-				ProcessInitializeOnLoadAttributes (893ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (1116ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 17.57 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3292.
+Total: 6.205500 ms (FindLiveObjects: 0.313200 ms CreateObjectMapping: 0.119800 ms MarkObjects: 5.453900 ms  DeleteObjects: 0.316300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80.070547 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1762a062daf8ee34a9df537ccd2c73d') in 0.389964 seconds 
+  Import took 0.412093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.363253 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b9fff82b382016db42fb8026df5249') in 0.308005 seconds 
+  Import took 0.353270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.078942 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c92026720a3b1e871f4edfcf8028f3') in 0.352016 seconds 
+  Import took 0.385223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.650531 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be14051c66b14751dce57ef4aba85112') in 0.295170 seconds 
+  Import took 0.346457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.986819 seconds.
+  path: Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab
+  artifactKey: Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Racers/Galactica_SP4UnityRigFinal.prefab using Guid(8356a2f227663b04eb738bfa3556ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb34983941c75d72b4a0bf45cf60949f') in 0.310675 seconds 
+  Import took 0.341937 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4822ms)
+		BeginReloadAssembly (696ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (177ms)
+		EndReloadAssembly (3744ms)
+			LoadAssemblies (792ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1572ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (1162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (195ms)
+				ProcessInitializeOnLoadAttributes (921ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.9 MB.
-System memory in use after: 151.1 MB.
+System memory in use before: 150.1 MB.
+System memory in use after: 150.3 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3341.
-Total: 7.365800 ms (FindLiveObjects: 0.402000 ms CreateObjectMapping: 0.610600 ms MarkObjects: 6.198100 ms  DeleteObjects: 0.152900 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3295.
+Total: 6.840800 ms (FindLiveObjects: 0.371100 ms CreateObjectMapping: 0.180300 ms MarkObjects: 6.129900 ms  DeleteObjects: 0.157600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1810,113 +1258,322 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.686241 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85a9be2e036c8766f0c6905855d7342') in 0.310290 seconds 
-  Import took 0.336677 seconds .
+  Time since last request: 268.054505 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_03_Day_a.mat
+  artifactKey: Guid(55e64e617a8bfff4ba846574e2651eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_03_Day_a.mat using Guid(55e64e617a8bfff4ba846574e2651eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba67f8cceeb058958b0aa3c05136ffef') in 1.090341 seconds 
+  Import took 1.108342 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.372798 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837b40bacc28e95e590e84d6fcac93a0') in 0.200140 seconds 
-  Import took 0.232220 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_15_Day_a.mat
+  artifactKey: Guid(d04fa9ef91692c6429efccdf42970c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_15_Day_a.mat using Guid(d04fa9ef91692c6429efccdf42970c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b7a96a233336ea9911a217da47b3c9') in 0.579832 seconds 
+  Import took 0.590568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.788942 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c395014face6517e42c79014eb25be81') in 0.153316 seconds 
-  Import took 0.179527 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Star2.mat
+  artifactKey: Guid(942ec76043123ba4e9a9850937176d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Star2.mat using Guid(942ec76043123ba4e9a9850937176d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa91614ea85a58ac868843b479d6ea2d') in 0.085272 seconds 
+  Import took 0.091384 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.219253 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc5e626103b36b7881fff16ee1d45f8') in 0.170481 seconds 
-  Import took 0.193102 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Star3.mat
+  artifactKey: Guid(6468e83b5ee73a04287f94a26ef7a66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Star3.mat using Guid(6468e83b5ee73a04287f94a26ef7a66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464adb366c915697911c285cd39ec686') in 0.094216 seconds 
+  Import took 0.100278 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.249883 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461adc7acfda1026ef6fdef0b81ce045') in 0.158320 seconds 
-  Import took 0.198355 seconds .
+  Time since last request: 0.000254 seconds.
+  path: Assets/Materials/Zeru_Racer/Zeru_Body.mat
+  artifactKey: Guid(caac7a75c832a864d926aa748e412859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Racer/Zeru_Body.mat using Guid(caac7a75c832a864d926aa748e412859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab60c11fb5db26b63853445e65ffd90') in 0.102116 seconds 
+  Import took 0.144854 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.610274 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e25426239f5f20f1ff57ac786bb5871') in 0.237782 seconds 
-  Import took 0.260387 seconds .
+  Time since last request: 0.010182 seconds.
+  path: Assets/Materials/Zeru_Racer/Zeru_Eye.mat
+  artifactKey: Guid(c88228ee1d983374f8ffe5ba62f29276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Racer/Zeru_Eye.mat using Guid(c88228ee1d983374f8ffe5ba62f29276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babc6055640fdfdb51c73792a24a4850') in 0.045655 seconds 
+  Import took 0.081594 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.869852 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea0f0c996123164d917584352622a3a') in 0.165053 seconds 
-  Import took 0.188766 seconds .
+  Time since last request: 0.000351 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat
+  artifactKey: Guid(c1c961cbd00909b45b34d97fd7df5cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat using Guid(c1c961cbd00909b45b34d97fd7df5cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35371e3e077dfb7f4be8898dd9a2e6c') in 0.798456 seconds 
+  Import took 0.827997 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.839006 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3423ac786a11b9bcb1fb6541ee1588') in 0.176845 seconds 
-  Import took 0.200281 seconds .
+  Time since last request: 0.002057 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Spark.mat
+  artifactKey: Guid(2e3993fb141ec334b9d10e0476cacde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Spark.mat using Guid(2e3993fb141ec334b9d10e0476cacde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f2eb980c1d7bf4fe1dc9c27885c01c') in 0.073649 seconds 
+  Import took 0.114775 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.254528 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e077da3715e5194149f6e593f1f0187') in 0.169854 seconds 
-  Import took 0.198751 seconds .
+  Time since last request: 0.000304 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat
+  artifactKey: Guid(b2f1a98efccfb644f8e084200a249527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat using Guid(b2f1a98efccfb644f8e084200a249527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5280df2092ba4c9b1e22dbb51701b494') in 0.802986 seconds 
+  Import took 0.814551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.010822 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa696dc721d78e8e57df10beaa791de') in 0.186314 seconds 
-  Import took 0.202162 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Spark6.mat
+  artifactKey: Guid(d1a2286650468fe4ca4aba51af7bbe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Spark6.mat using Guid(d1a2286650468fe4ca4aba51af7bbe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d80e7783de612c1fed7a93408a35a52') in 0.094051 seconds 
+  Import took 0.099874 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.605601 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedf70bc59505d9402aa48aa5b83f22d') in 0.172299 seconds 
-  Import took 0.209596 seconds .
+  Time since last request: 0.000259 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_15_Day_a.mat
+  artifactKey: Guid(50bf15468c19e0e40b5bf26662770a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_15_Day_a.mat using Guid(50bf15468c19e0e40b5bf26662770a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf7304aa8e3c1996cceace1bab9468f') in 1.054540 seconds 
+  Import took 1.065665 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.613347 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a26b7183b33d9f44279075d7c259b6') in 0.179643 seconds 
-  Import took 0.204675 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Spark2.mat
+  artifactKey: Guid(ae4696aff994b8443ae966782a67224e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Spark2.mat using Guid(ae4696aff994b8443ae966782a67224e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee19c4a3c525e937be658b162b4afc6') in 0.084641 seconds 
+  Import took 0.090137 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.416024 seconds.
-  path: Assets/Prefabs/Racers/Chroma Hoverbike.prefab
-  artifactKey: Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/Chroma Hoverbike.prefab using Guid(1930688daf9b475409515c1bb813f357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8971387abf74525ac77266c87c205925') in 0.168464 seconds 
-  Import took 0.190141 seconds .
+  Time since last request: 0.000249 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Spark4.mat
+  artifactKey: Guid(68a18fadc3832fe4a92ab0c9e7567997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Spark4.mat using Guid(68a18fadc3832fe4a92ab0c9e7567997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9390a81f6e95d300f6e874fa690a017') in 0.088993 seconds 
+  Import took 0.094257 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.453516 seconds.
-  path: Assets/Prefabs/Racers/KageRacerRig.prefab
-  artifactKey: Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Racers/KageRacerRig.prefab using Guid(f6ae657f57442d0458b8cdffe533fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67d8ab4482d6c908dc1c0f5fc3e933e') in 0.137938 seconds 
-  Import took 0.181319 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat
+  artifactKey: Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat using Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbe9316af10f2e4561e08c7c54d4c6a') in 0.820964 seconds 
+  Import took 0.831849 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Spark3.mat
+  artifactKey: Guid(bbac47c68408c55409d15aec53362039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Spark3.mat using Guid(bbac47c68408c55409d15aec53362039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f635f1478059d08ea163e85ab33dd5') in 0.080493 seconds 
+  Import took 0.094972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat
+  artifactKey: Guid(133347283e115d147a5fcce7f47a538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat using Guid(133347283e115d147a5fcce7f47a538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29169cde9115701343a8e5b547a8638e') in 0.899899 seconds 
+  Import took 0.911134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_11_morning_a.mat
+  artifactKey: Guid(3f698c5d47507d54db2dcb930054532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_11_morning_a.mat using Guid(3f698c5d47507d54db2dcb930054532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992cb5639fd0854ccb03019c27892cef') in 0.322158 seconds 
+  Import took 0.331387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Spark5.mat
+  artifactKey: Guid(7145e087e1edaf04287f49014d94a1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Spark5.mat using Guid(7145e087e1edaf04287f49014d94a1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0775b6f3bd4da33fa057d04f5f3753e9') in 0.074780 seconds 
+  Import took 0.080847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Materials/Zeru_Racer/Zeru_Ears.mat
+  artifactKey: Guid(ffb52bdc058aa234bb9eafa6aa06bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Zeru_Racer/Zeru_Ears.mat using Guid(ffb52bdc058aa234bb9eafa6aa06bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6e71dca22213e55d57837a47808282') in 0.073121 seconds 
+  Import took 0.080708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Star4.mat
+  artifactKey: Guid(c396f9496be2bcd428a7bd0d3a4826f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Star4.mat using Guid(c396f9496be2bcd428a7bd0d3a4826f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416a14a3ab85c00e95f4445f236bf23a') in 0.091165 seconds 
+  Import took 0.098347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Star5.mat
+  artifactKey: Guid(3c536db6bf666d74e99d046d6a933d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Star5.mat using Guid(3c536db6bf666d74e99d046d6a933d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa285d7e04d706d79f46be6f4e3f7bc7') in 0.100840 seconds 
+  Import took 0.107615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Smoke.mat
+  artifactKey: Guid(ed9050a5cafca2c43ad22365fbc83f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Smoke.mat using Guid(ed9050a5cafca2c43ad22365fbc83f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df35d576009879a1bbeb0d772ec0f450') in 0.072942 seconds 
+  Import took 0.079642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_18_day_a.mat
+  artifactKey: Guid(f9ec1c0318dcc3149b0e9ae62a6d8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_18_day_a.mat using Guid(f9ec1c0318dcc3149b0e9ae62a6d8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5033eec787beecfcb03db3aa392b533') in 0.342289 seconds 
+  Import took 0.350716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat
+  artifactKey: Guid(aa87107d0c3535c4983a4edb2d0e9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat using Guid(aa87107d0c3535c4983a4edb2d0e9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bcab004ea889207449e5b645198210') in 0.333210 seconds 
+  Import took 0.341855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat
+  artifactKey: Guid(6abe918ee1229b34f8557fc2a5a39825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat using Guid(6abe918ee1229b34f8557fc2a5a39825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1ce27b0cbe252a900d6cae5eeccb48') in 0.088121 seconds 
+  Import took 0.096278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9bb148a05aac4793d9e8f3dca43d18') in 0.258581 seconds 
+  Import took 0.274982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.648680 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Ring6.mat
+  artifactKey: Guid(76f106c1d383cdb488221f22579be3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Ring6.mat using Guid(76f106c1d383cdb488221f22579be3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17703bf8b3e53bd782589be3d74c5c1c') in 0.079850 seconds 
+  Import took 0.086260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat
+  artifactKey: Guid(6bfab16f387f95e4bb60f866299be241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat using Guid(6bfab16f387f95e4bb60f866299be241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e242566138839f527ddf17fc2b8cbf19') in 0.313219 seconds 
+  Import took 0.324695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/52SpecialEffectPack/Texture/Ring7.mat
+  artifactKey: Guid(0ab4633670105af48a21aa4062e2409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/52SpecialEffectPack/Texture/Ring7.mat using Guid(0ab4633670105af48a21aa4062e2409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3287407e05bd1be0c5696dd6c5f4e76') in 0.084133 seconds 
+  Import took 0.090659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a84fd95370bcaaf27155830a746827') in 0.203712 seconds 
+  Import took 0.209716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Materials/roads/road material.mat
+  artifactKey: Guid(f182e2714eb8a714a99ed091081ce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEST MOVEMENT/Snow Mountain Track/Resources/Materials/roads/road material.mat using Guid(f182e2714eb8a714a99ed091081ce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632e8106e76ecd36fa57af0d3a81a76a') in 0.194222 seconds 
+  Import took 0.200352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57db06bd385d277e5afac69fb3f42cca') in 0.229318 seconds 
+  Import took 0.262196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2dd7a81fa5d549fd9ca0d8ded55479') in 0.231198 seconds 
+  Import took 0.248364 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.382 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2382ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2042ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (628ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (923ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (725ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.4 MB.
+System memory in use after: 150.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3333.
+Total: 6.563100 ms (FindLiveObjects: 0.790600 ms CreateObjectMapping: 0.222400 ms MarkObjects: 5.397300 ms  DeleteObjects: 0.150800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
